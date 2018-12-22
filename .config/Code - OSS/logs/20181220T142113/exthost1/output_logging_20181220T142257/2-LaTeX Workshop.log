@@ -1,0 +1,485 @@
+[14:23:13] Initializing LaTeX Workshop.
+[14:23:13] Creating LaTeX Workshop http and websocket server.
+[14:23:13] LaTeX Workshop initialized.
+[14:23:16] Server created on 127.0.0.1:41637
+[14:23:16] LaTeX Workshop version: 5.18.0
+[14:23:16] Snippet data loaded.
+[14:23:36] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:23:36] BUILD command invoked.
+[14:23:36] Cannot find LaTeX root file.
+[14:27:45] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:27:45] BUILD command invoked.
+[14:27:45] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:45] Root file changed from: undefined. Find all dependencies.
+[14:27:45] Instatiating new file watcher for /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:45] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:45] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:45] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:45] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:27:48] Recipe returns with error: 12/null.
+[14:27:48] Cleaning auxillary files and retrying build after toolchain error.
+[14:27:48] CLEAN command invoked.
+[14:27:48] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:48] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:27:48] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:27:48] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:27:48] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:27:48] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:27:48] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:27:48] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:27:48] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:27:48] Recipe returns with error: 12/null.
+[14:34:11] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:11] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:11] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:34:11] BUILD command invoked.
+[14:34:11] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:34:11] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:11] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:11] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:34:12] Recipe returns with error: 12/null.
+[14:34:12] Cleaning auxillary files and retrying build after toolchain error.
+[14:34:12] CLEAN command invoked.
+[14:34:12] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:34:12] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:34:12] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:34:12] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:34:12] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:34:12] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:34:12] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:34:12] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:34:12] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:12] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:34:12] Recipe returns with error: 12/null.
+[14:35:20] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:20] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:20] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:35:20] BUILD command invoked.
+[14:35:20] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:20] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:20] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:20] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:35:21] LaTeX log parsed with 54 messages.
+[14:35:21] Recipe returns with error: 12/null.
+[14:35:21] Cleaning auxillary files and retrying build after toolchain error.
+[14:35:21] CLEAN command invoked.
+[14:35:21] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:21] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:21] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:35:21] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:35:21] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:35:21] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:35:21] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:35:21] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:35:21] LaTeX log parsed with 54 messages.
+[14:35:21] Recipe returns with error: 12/null.
+[14:35:58] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:58] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:58] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:35:58] BUILD command invoked.
+[14:35:58] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:58] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:58] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:35:58] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:35:58] LaTeX log parsed with 43 messages.
+[14:35:58] Recipe returns with error: 12/null.
+[14:35:58] Cleaning auxillary files and retrying build after toolchain error.
+[14:35:58] CLEAN command invoked.
+[14:35:58] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:58] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:35:58] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:35:58] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:35:58] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:35:58] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:35:58] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:35:58] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:35:59] LaTeX log parsed with 43 messages.
+[14:35:59] Recipe returns with error: 12/null.
+[14:36:01] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:01] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:01] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:36:01] BUILD command invoked.
+[14:36:01] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:01] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:01] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:01] LaTeX log parsed with 43 messages.
+[14:36:01] Recipe returns with error: 12/null.
+[14:36:01] Cleaning auxillary files and retrying build after toolchain error.
+[14:36:01] CLEAN command invoked.
+[14:36:01] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:01] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:01] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:36:01] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:36:01] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:36:01] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:36:01] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:36:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:02] LaTeX log parsed with 43 messages.
+[14:36:02] Recipe returns with error: 12/null.
+[14:36:05] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:05] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:05] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:36:05] BUILD command invoked.
+[14:36:05] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:05] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:05] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:05] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:05] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:06] LaTeX log parsed with 0 messages.
+[14:36:06] Recipe of length 1 finished.
+[14:36:06] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:06] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:36:06] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:06] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:36:12] BUILD command invoked.
+[14:36:12] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:12] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:12] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:13] LaTeX log parsed with 0 messages.
+[14:36:13] Recipe of length 1 finished.
+[14:36:13] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:13] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:36:53] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:36:53] BUILD command invoked.
+[14:36:53] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:53] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:53] LaTeX log parsed with 3 messages.
+[14:36:53] Recipe returns with error: 12/null.
+[14:36:53] Cleaning auxillary files and retrying build after toolchain error.
+[14:36:53] CLEAN command invoked.
+[14:36:53] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:53] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:36:53] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.out
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:36:53] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:36:53] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:36:54] LaTeX log parsed with 3 messages.
+[14:36:54] Recipe returns with error: 12/null.
+[14:37:40] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:40] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:40] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:37:40] BUILD command invoked.
+[14:37:40] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:40] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:37:40] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:40] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:40] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:37:41] LaTeX log parsed with 3 messages.
+[14:37:41] Recipe returns with error: 12/null.
+[14:37:41] Cleaning auxillary files and retrying build after toolchain error.
+[14:37:41] CLEAN command invoked.
+[14:37:41] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:41] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:37:41] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:41] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:37:41] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:37:41] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:37:41] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:37:41] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:37:41] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:37:41] LaTeX log parsed with 3 messages.
+[14:37:41] Recipe returns with error: 12/null.
+[14:37:50] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:50] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:50] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:37:50] BUILD command invoked.
+[14:37:50] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:50] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:37:50] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:50] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:50] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:37:51] LaTeX log parsed with 0 messages.
+[14:37:51] Recipe of length 1 finished.
+[14:37:51] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:37:51] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:39:44] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:44] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:44] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:39:44] BUILD command invoked.
+[14:39:44] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:44] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:39:44] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:44] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:44] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:39:45] LaTeX log parsed with 0 messages.
+[14:39:45] Recipe of length 1 finished.
+[14:39:45] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:39:45] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:40:05] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:40:05] BUILD command invoked.
+[14:40:05] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:40:05] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:40:05] LaTeX log parsed with 3 messages.
+[14:40:05] Recipe returns with error: 12/null.
+[14:40:05] Cleaning auxillary files and retrying build after toolchain error.
+[14:40:05] CLEAN command invoked.
+[14:40:05] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:40:05] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:40:05] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.out
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:40:05] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:40:05] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:40:06] LaTeX log parsed with 3 messages.
+[14:40:06] Recipe returns with error: 12/null.
+[14:42:39] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:39] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:39] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:42:39] BUILD command invoked.
+[14:42:39] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:39] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:42:39] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:39] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:42:40] LaTeX log parsed with 0 messages.
+[14:42:40] Recipe of length 1 finished.
+[14:42:40] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:42:40] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:43:31] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:31] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:31] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:43:31] BUILD command invoked.
+[14:43:31] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:31] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:43:31] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:31] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:31] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:43:32] LaTeX log parsed with 0 messages.
+[14:43:32] Recipe of length 1 finished.
+[14:43:32] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:32] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:43:42] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:42] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:42] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:43:42] BUILD command invoked.
+[14:43:42] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:42] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:43:42] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:42] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:42] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:43:43] LaTeX log parsed with 0 messages.
+[14:43:43] Recipe of length 1 finished.
+[14:43:43] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:43] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:43:59] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:59] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:59] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:43:59] BUILD command invoked.
+[14:43:59] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:59] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:43:59] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:59] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:43:59] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:44:00] Recipe returns with error: 12/null.
+[14:44:00] Cleaning auxillary files and retrying build after toolchain error.
+[14:44:00] CLEAN command invoked.
+[14:44:00] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:00] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:44:00] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:00] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.out
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[14:44:00] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[14:44:00] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:44:01] Recipe returns with error: 12/null.
+[14:44:20] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:20] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:20] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:44:20] BUILD command invoked.
+[14:44:20] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:20] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:44:20] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:20] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:20] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:44:21] LaTeX log parsed with 0 messages.
+[14:44:21] Recipe of length 1 finished.
+[14:44:21] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:44:21] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:45:08] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:08] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:08] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:45:08] BUILD command invoked.
+[14:45:08] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:08] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:45:08] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:08] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:08] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:45:09] LaTeX log parsed with 0 messages.
+[14:45:09] Recipe of length 1 finished.
+[14:45:09] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:45:09] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[14:57:17] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[14:57:17] BUILD command invoked.
+[14:57:17] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[14:57:17] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[14:57:17] LaTeX log parsed with 0 messages.
+[14:57:17] Recipe of length 1 finished.
+[14:57:17] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[14:57:17] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:02:25] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:02:25] BUILD command invoked.
+[15:02:25] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:02:25] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:02:25] LaTeX log parsed with 0 messages.
+[15:02:25] Recipe of length 1 finished.
+[15:02:25] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:02:25] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:08:57] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:57] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:57] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:08:57] BUILD command invoked.
+[15:08:57] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:57] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:08:57] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:57] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:57] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:08:58] LaTeX log parsed with 0 messages.
+[15:08:58] Recipe of length 1 finished.
+[15:08:58] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:08:58] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:09:58] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:58] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:58] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:09:58] BUILD command invoked.
+[15:09:58] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:58] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:09:58] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:58] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:58] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:09:59] LaTeX log parsed with 0 messages.
+[15:09:59] Recipe of length 1 finished.
+[15:09:59] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:09:59] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:10:52] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:10:52] BUILD command invoked.
+[15:10:52] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:10:52] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:10:52] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:52] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:53] LaTeX log parsed with 0 messages.
+[15:10:53] Recipe of length 1 finished.
+[15:10:53] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:10:53] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:11:23] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:23] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:23] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:11:23] BUILD command invoked.
+[15:11:23] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:23] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:11:23] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:23] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:23] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:11:24] LaTeX log parsed with 3 messages.
+[15:11:24] Recipe returns with error: 12/null.
+[15:11:24] Cleaning auxillary files and retrying build after toolchain error.
+[15:11:24] CLEAN command invoked.
+[15:11:24] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:24] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:11:24] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:24] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.aux
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.out
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.toc
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fls
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.log
+[15:11:24] File cleaned: /home/alex/dev/LaTeX/GregynogPrep/presentation.fdb_latexmk
+[15:11:24] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:11:25] LaTeX log parsed with 3 messages.
+[15:11:25] Recipe returns with error: 12/null.
+[15:11:41] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:41] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:41] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:11:41] BUILD command invoked.
+[15:11:41] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:41] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:11:41] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:41] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:41] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:11:43] LaTeX log parsed with 1 messages.
+[15:11:43] Recipe of length 1 finished.
+[15:11:43] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:11:43] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:12:12] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:12] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:12] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:12:12] BUILD command invoked.
+[15:12:12] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:12] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:12:12] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:12] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:12] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:12:13] LaTeX log parsed with 0 messages.
+[15:12:13] Recipe of length 1 finished.
+[15:12:13] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:13] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:12:13] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:12:13] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:13:28] BUILD command invoked.
+[15:13:28] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:13:28] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:28] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:13:29] LaTeX log parsed with 0 messages.
+[15:13:29] Recipe of length 1 finished.
+[15:13:29] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:13:29] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf
+[15:23:25] File watcher: responding to change in /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:25] Parsing /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:25] Auto-build /home/alex/dev/LaTeX/GregynogPrep/presentation.tex upon save.
+[15:23:25] BUILD command invoked.
+[15:23:25] Found root file from active editor: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:25] Root file remains unchanged from: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex.
+[15:23:25] Building root file: /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:25] Build root file /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/LaTeX/GregynogPrep/presentation
+[15:23:26] LaTeX log parsed with 0 messages.
+[15:23:26] Recipe of length 1 finished.
+[15:23:26] Successfully built /home/alex/dev/LaTeX/GregynogPrep/presentation.tex
+[15:23:26] No PDF viewer connected for /home/alex/dev/LaTeX/GregynogPrep/presentation.pdf

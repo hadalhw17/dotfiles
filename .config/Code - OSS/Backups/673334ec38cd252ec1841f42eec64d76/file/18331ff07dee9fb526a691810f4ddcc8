@@ -1,0 +1,13 @@
+file:///home/alex/dev/dotNet/WebAppCW/689997CW1/appsettings.json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-_689997CW1-71F46016-876C-4042-8579-8D9700F8C1A5;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "mssqlConnection": "Server=localhost;port=3306;Database=aspnet-_689997CW1-71F46016-876C-4042-8579-8D9700F8C1A5;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

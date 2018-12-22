@@ -1,0 +1,22 @@
+[Appearance]
+AntiAliasFonts=true
+BoldIntense=true
+ColorScheme=Solarized
+LineSpacing=0
+UseFontLineCharacters=true
+
+[Desktop Entry]
+DefaultProfile=New Profile.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+Height 1080=984
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA7wAAAP5AAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=468

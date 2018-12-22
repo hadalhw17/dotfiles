@@ -1,0 +1,36 @@
+[2018-12-12 16:14:51.870] [exthost] [info] extension host started
+[2018-12-12 16:14:51.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:14:51.890] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2018-12-12 16:14:51.976] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:14:51.976] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2018-12-12 16:14:52.015] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:14:52.015] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2018-12-12 16:14:52.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:14:52.476] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2018-12-12 16:14:52.691] [exthost] [info] eager extensions activated
+[2018-12-12 16:14:52.693] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2018-12-12 16:14:52.693] [exthost] [info] ExtensionService#loadCommonJSModule /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-5.17.3/out/src/main.js
+[2018-12-12 16:19:37.968] [exthost] [info] extension host started
+[2018-12-12 16:19:37.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:19:37.988] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2018-12-12 16:19:37.993] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:19:37.993] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2018-12-12 16:19:38.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:19:38.009] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2018-12-12 16:19:38.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:19:38.108] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2018-12-12 16:19:38.118] [exthost] [info] eager extensions activated
+[2018-12-12 16:20:31.003] [exthost] [info] extension host started
+[2018-12-12 16:20:31.021] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:20:31.021] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2018-12-12 16:20:31.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:20:31.027] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2018-12-12 16:20:31.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:20:31.046] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2018-12-12 16:20:31.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-12 16:20:31.145] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2018-12-12 16:20:31.154] [exthost] [info] eager extensions activated
+[2018-12-12 16:20:36.486] [exthost] [info] ExtensionService#_doActivateExtension jithurjacob.nbpreviewer {"startup":false,"activationEvent":"onLanguage:ipython"}
+[2018-12-12 16:20:36.486] [exthost] [info] ExtensionService#loadCommonJSModule /home/alex/.vscode-oss/extensions/jithurjacob.nbpreviewer-1.1.0/src/extension
+[2018-12-12 16:25:12.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-12-12 16:25:12.753] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/python/out/pythonMain

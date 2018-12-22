@@ -1,0 +1,278 @@
+[08:38:59] Initializing LaTeX Workshop.
+[08:38:59] Creating LaTeX Workshop http and websocket server.
+[08:38:59] LaTeX Workshop initialized.
+[08:38:59] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[08:39:00] Root file changed from: undefined. Find all dependencies.
+[08:39:00] Instatiating new file watcher for /home/alex/dev/Python/BDMLCW/test.tex
+[08:39:00] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[08:39:00] Server created on 127.0.0.1:38195
+[08:39:00] Snippet data loaded.
+[08:39:00] LaTeX Workshop version: 5.17.3
+[08:43:37] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:37] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:37] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[08:43:37] BUILD command invoked.
+[08:43:37] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:37] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[08:43:37] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:37] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:37] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[08:43:38] LaTeX log parsed with 22 messages.
+[08:43:38] Recipe of length 1 finished.
+[08:43:38] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[08:43:38] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:13:32] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:32] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:32] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:13:32] BUILD command invoked.
+[09:13:32] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:32] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:13:32] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:32] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:32] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:13:33] LaTeX log parsed with 22 messages.
+[09:13:33] Recipe of length 1 finished.
+[09:13:33] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:13:33] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:14:26] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:14:26] BUILD command invoked.
+[09:14:26] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:14:26] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:14:26] LaTeX log parsed with 22 messages.
+[09:14:26] Recipe of length 1 finished.
+[09:14:26] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:14:26] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:17:11] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:11] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:11] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:17:11] BUILD command invoked.
+[09:17:11] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:11] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:17:11] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:11] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:11] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:17:12] LaTeX log parsed with 22 messages.
+[09:17:12] Recipe of length 1 finished.
+[09:17:12] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:17:12] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:20:00] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:00] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:00] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:20:00] BUILD command invoked.
+[09:20:00] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:00] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:20:00] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:00] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:00] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:20:01] LaTeX log parsed with 22 messages.
+[09:20:01] Recipe of length 1 finished.
+[09:20:01] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:01] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:20:01] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:01] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:20:36] BUILD command invoked.
+[09:20:36] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:20:36] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:36] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:20:37] LaTeX log parsed with 22 messages.
+[09:20:37] Recipe of length 1 finished.
+[09:20:37] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:37] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:20:44] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:20:44] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:21:42] BUILD command invoked.
+[09:21:42] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:21:42] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:21:42] LaTeX log parsed with 22 messages.
+[09:21:42] Recipe of length 1 finished.
+[09:21:42] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:42] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:21:54] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:54] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:54] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:21:54] BUILD command invoked.
+[09:21:54] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:54] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:21:54] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:54] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:54] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:21:55] LaTeX log parsed with 22 messages.
+[09:21:55] Recipe of length 1 finished.
+[09:21:55] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:21:55] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:22:12] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:12] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:12] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:22:12] BUILD command invoked.
+[09:22:12] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:12] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:22:12] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:12] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:12] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:22:13] LaTeX log parsed with 22 messages.
+[09:22:13] Recipe of length 1 finished.
+[09:22:13] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:13] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:22:32] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:22:32] BUILD command invoked.
+[09:22:32] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:22:32] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:22:32] LaTeX log parsed with 22 messages.
+[09:22:32] Recipe of length 1 finished.
+[09:22:32] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:32] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:22:49] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:22:49] BUILD command invoked.
+[09:22:49] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:22:49] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:22:49] LaTeX log parsed with 22 messages.
+[09:22:49] Recipe of length 1 finished.
+[09:22:49] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:22:49] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:23:04] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:04] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:04] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:23:04] BUILD command invoked.
+[09:23:04] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:04] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:23:04] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:04] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:04] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:23:05] LaTeX log parsed with 22 messages.
+[09:23:05] Recipe of length 1 finished.
+[09:23:05] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:05] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:23:05] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:05] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:23:54] BUILD command invoked.
+[09:23:54] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:23:54] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:54] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:23:55] LaTeX log parsed with 22 messages.
+[09:23:55] Recipe of length 1 finished.
+[09:23:55] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:23:55] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:24:12] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:12] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:13] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:24:13] BUILD command invoked.
+[09:24:13] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:13] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:24:13] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:13] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:13] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:24:13] LaTeX log parsed with 22 messages.
+[09:24:13] Recipe of length 1 finished.
+[09:24:13] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:13] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:24:28] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:28] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:28] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:24:28] BUILD command invoked.
+[09:24:28] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:28] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:24:28] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:28] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:28] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:24:29] LaTeX log parsed with 20 messages.
+[09:24:29] Recipe of length 1 finished.
+[09:24:29] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:24:29] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:27:09] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:09] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:09] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:27:09] BUILD command invoked.
+[09:27:09] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:09] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:27:09] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:09] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:09] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:27:10] LaTeX log parsed with 20 messages.
+[09:27:10] Recipe of length 1 finished.
+[09:27:10] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:27:10] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:34:01] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:01] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:01] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:34:01] BUILD command invoked.
+[09:34:01] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:01] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:34:01] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:01] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:34:02] LaTeX log parsed with 20 messages.
+[09:34:02] Recipe of length 1 finished.
+[09:34:02] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:02] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:34:32] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:32] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:32] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:34:32] BUILD command invoked.
+[09:34:32] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:32] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:34:32] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:32] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:32] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:34:33] LaTeX log parsed with 20 messages.
+[09:34:33] Recipe of length 1 finished.
+[09:34:33] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:33] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:34:48] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:34:48] BUILD command invoked.
+[09:34:48] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:34:48] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:34:48] LaTeX log parsed with 20 messages.
+[09:34:48] Recipe of length 1 finished.
+[09:34:48] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:34:48] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[09:36:01] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[09:36:01] BUILD command invoked.
+[09:36:01] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[09:36:01] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[09:36:01] LaTeX log parsed with 20 messages.
+[09:36:01] Recipe of length 1 finished.
+[09:36:01] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[09:36:01] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[10:25:57] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[10:25:57] Parsing /home/alex/dev/Python/BDMLCW/test.tex

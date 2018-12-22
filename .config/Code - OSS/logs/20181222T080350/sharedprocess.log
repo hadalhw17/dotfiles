@@ -1,0 +1,62 @@
+[2018-12-22 08:03:55.920] [sharedprocess] [info] main {"machineId":"43dbd245f1f6b44548dde54aed36a0385e0db91487daa5899c8f892d89f2be0a"}
+[2018-12-22 08:03:56.178] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:03:58.437] [sharedprocess] [info] Deleted from disk ms-python.python-2018.12.0
+[2018-12-22 08:03:58.442] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:03:59.401] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:03:59.405] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:03:59.433] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:03:59.436] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:03:59.601] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:01.643] [sharedprocess] [info] Installing extension: latex-workshop
+[2018-12-22 08:04:01.647] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:11.729] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:11.733] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:11.738] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:11.747] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:11.788] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:04:11.791] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:04:11.794] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:04:16.285] [sharedprocess] [info] Downloaded extension: latex-workshop /tmp/dc21b84a-d5bf-4863-b232-2206c1b24814
+[2018-12-22 08:04:19.133] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.james-yu.latex-workshop-5.19.0: james-yu.latex-workshop-5.19.0
+[2018-12-22 08:04:19.133] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-5.19.0
+[2018-12-22 08:04:19.135] [sharedprocess] [info] Installation completed. james-yu.latex-workshop-5.19.0
+[2018-12-22 08:04:19.273] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2018-12-22 08:04:25.086] [sharedprocess] [info] Installing extension: mssql
+[2018-12-22 08:04:25.093] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-22 08:04:35.922] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-12-22 08:04:45.494] [sharedprocess] [info] Downloaded extension: mssql /tmp/8056b413-dcc1-4335-92b9-6b1f522035f2
+[2018-12-22 08:04:47.308] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.ms-mssql.mssql-1.4.0: ms-mssql.mssql-1.4.0
+[2018-12-22 08:04:47.308] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/ms-mssql.mssql-1.4.0
+[2018-12-22 08:04:47.309] [sharedprocess] [info] Installation completed. ms-mssql.mssql-1.4.0
+[2018-12-22 08:04:47.483] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:04:47.637] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:04:47.637] [sharedprocess] [info] Extensions installed successfully: ms-mssql.mssql
+[2018-12-22 08:04:47.760] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:04:47.773] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:05:09.593] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:05:09.596] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:05:09.600] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:05:09.611] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:05:09.612] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:05:09.680] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:05:09.691] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:05:09.696] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:05:09.699] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:05:09.785] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:07:32.492] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:07:32.496] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:07:32.536] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:07:32.540] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-22 08:07:32.792] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:14:04.566] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:19:04.584] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:42:52.468] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:47:52.480] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:52:52.498] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 08:57:52.513] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:02:52.559] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:07:52.612] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:12:52.666] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:17:52.696] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:22:52.760] [sharedprocess] [info] Scanned user extensions: 5
+[2018-12-22 09:27:52.858] [sharedprocess] [info] Scanned user extensions: 5

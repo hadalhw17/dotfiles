@@ -1,0 +1,72 @@
+[2018-12-12 16:14:48.937] [sharedprocess] [info] main {"machineId":"43dbd245f1f6b44548dde54aed36a0385e0db91487daa5899c8f892d89f2be0a"}
+[2018-12-12 16:14:49.004] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:14:49.717] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:14:50.971] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:14:50.989] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:14:51.912] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:14:53.286] [sharedprocess] [info] Installing extension: latex-workshop
+[2018-12-12 16:14:53.288] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:14:56.805] [sharedprocess] [info] Downloaded extension: latex-workshop /tmp/a55dd0a1-8f00-45b3-8f84-2cc5a4d0204d
+[2018-12-12 16:15:00.204] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.james-yu.latex-workshop-5.18.0: james-yu.latex-workshop-5.18.0
+[2018-12-12 16:15:00.204] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-5.18.0
+[2018-12-12 16:15:00.204] [sharedprocess] [info] Installation completed. james-yu.latex-workshop-5.18.0
+[2018-12-12 16:15:00.340] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2018-12-12 16:15:28.940] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-12-12 16:19:37.610] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:19:37.616] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:19:37.665] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:19:37.668] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:19:37.676] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:19:47.496] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:20:01.967] [sharedprocess] [info] Installing extension: nbpreviewer
+[2018-12-12 16:20:01.971] [sharedprocess] [info] Scanned user extensions: 1
+[2018-12-12 16:20:04.538] [sharedprocess] [info] Downloaded extension: nbpreviewer /tmp/7319bc62-058c-40de-bff3-7b71bd1f385b
+[2018-12-12 16:20:07.450] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.jithurjacob.nbpreviewer-1.1.0: jithurjacob.nbpreviewer-1.1.0
+[2018-12-12 16:20:07.450] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/jithurjacob.nbpreviewer-1.1.0
+[2018-12-12 16:20:07.450] [sharedprocess] [info] Installation completed. jithurjacob.nbpreviewer-1.1.0
+[2018-12-12 16:20:07.559] [sharedprocess] [info] Extensions installed successfully: jithurjacob.nbpreviewer
+[2018-12-12 16:20:07.681] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:07.694] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:20:30.612] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.614] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.649] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.663] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.667] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.728] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:20:30.736] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:20:30.756] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:20:30.761] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:20:30.764] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:25:30.816] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:26:00.583] [sharedprocess] [info] Installing extension: python
+[2018-12-12 16:26:00.585] [sharedprocess] [info] Scanned user extensions: 2
+[2018-12-12 16:26:13.350] [sharedprocess] [info] Downloaded extension: python /tmp/189baabe-5c53-4ee4-928d-f027b2b4a03c
+[2018-12-12 16:26:13.910] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.ms-python.python-2018.11.0: ms-python.python-2018.11.0
+[2018-12-12 16:26:13.910] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/ms-python.python-2018.11.0
+[2018-12-12 16:26:13.910] [sharedprocess] [info] Installation completed. ms-python.python-2018.11.0
+[2018-12-12 16:26:14.001] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2018-12-12 16:26:14.134] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:26:14.150] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-12 16:30:30.832] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:35:30.847] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:40:30.865] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:45:30.878] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:50:30.890] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 16:55:30.910] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:00:30.928] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:05:30.945] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:10:30.963] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:15:30.979] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:20:30.991] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:25:31.011] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:30:31.020] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:35:31.037] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:40:31.051] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-12 17:45:31.069] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 12:57:24.851] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:19:27.190] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:24:27.199] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:29:27.216] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:34:27.230] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:39:27.251] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-13 14:44:27.264] [sharedprocess] [info] Scanned user extensions: 3

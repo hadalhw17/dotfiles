@@ -1,0 +1,180 @@
+ReadyLatexmk: This is Latexmk, John Collins, 25 October 2018, version: 4.61.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/alex/dev/Python/BDMLCW/test.tex'
+      'test.aux'
+      'test.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/alex/dev/Python/BDMLCW/test.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/alex/dev/Python/BDMLCW/test.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty) (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/soul/soul.sty) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texmf-dist/tex/latex/base/t1enc.def)) (./test.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (./test.out) (./test.out) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/usr/share/texmf-dist/tex/latex/base/omscmr.fd) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (32.9106pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][] 
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
+Overfull \hbox (74.90067pt too wide) in paragraph at lines 116--117
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (68.90208pt too wide) in paragraph at lines 117--118
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[3]
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 149--150
+[][][][] 
+
+Overfull \hbox (26.91202pt too wide) in paragraph at lines 150--151
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 151--152
+[][][][] 
+
+Overfull \hbox (20.91344pt too wide) in paragraph at lines 152--153
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 153--154
+[][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 155--156
+[][][][] 
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 156--157
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 157--158
+[][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 159--160
+[][][][] 
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 160--161
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 161--162
+[][][][] 
+
+Overfull \hbox (8.91628pt too wide) in paragraph at lines 162--163
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 163--164
+[][][][] 
+[4]
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd)
+Overfull \hbox (17.16156pt too wide) in paragraph at lines 234--234
+[]  \T1/cmtt/m/n/10 Scikit-learn.org. (2018). scikit-learn: machine learning in Python.[] 
+
+Overfull \hbox (132.63336pt too wide) in paragraph at lines 234--234
+[]  \T1/cmtt/m/n/10 [online] Available at:https://scikit-learn.org/stable/index.html# [Accessed 8 Dec. 2018].[] 
+[5] (./test.aux) )
+(see the transcript file for additional information){/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on test.pdf (5 pages, 168506 bytes).
+SyncTeX written on test.synctex.gz.
+Transcript written on test.log.
+Latexmk: Log file says output to 'test.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'test.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/alex/dev/Python/BDMLCW/test.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/alex/dev/Python/BDMLCW/test.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo)) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty) (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/soul/soul.sty) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texmf-dist/tex/latex/base/t1enc.def)) (./test.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (./test.out) (./test.out) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/usr/share/texmf-dist/tex/latex/base/omscmr.fd) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (32.9106pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][] 
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty)
+Overfull \hbox (74.90067pt too wide) in paragraph at lines 116--117
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (68.90208pt too wide) in paragraph at lines 117--118
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[3]
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 149--150
+[][][][] 
+
+Overfull \hbox (26.91202pt too wide) in paragraph at lines 150--151
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 151--152
+[][][][] 
+
+Overfull \hbox (20.91344pt too wide) in paragraph at lines 152--153
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 153--154
+[][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 155--156
+[][][][] 
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 156--157
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 157--158
+[][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 159--160
+[][][][] 
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 160--161
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 161--162
+[][][][] 
+
+Overfull \hbox (8.91628pt too wide) in paragraph at lines 162--163
+[][][][][][][][][][][][][][][][][][][][] 
+
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 163--164
+[][][][] 
+[4]
+Overfull \hbox (44.90776pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd)
+Overfull \hbox (17.16156pt too wide) in paragraph at lines 234--234
+[]  \T1/cmtt/m/n/10 Scikit-learn.org. (2018). scikit-learn: machine learning in Python.[] 
+
+Overfull \hbox (132.63336pt too wide) in paragraph at lines 234--234
+[]  \T1/cmtt/m/n/10 [online] Available at:https://scikit-learn.org/stable/index.html# [Accessed 8 Dec. 2018].[] 
+[5] (./test.aux) )
+(see the transcript file for additional information){/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on test.pdf (5 pages, 168506 bytes).
+SyncTeX written on test.synctex.gz.
+Transcript written on test.log.
+Latexmk: Log file says output to 'test.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (test.pdf) are up-to-date

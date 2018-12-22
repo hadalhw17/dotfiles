@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>IronPdf</id>
+    <version>4.4.9</version>
+    <title>IronPDF - The C# PDF Library</title>
+    <authors>Iron PDF Development Team http://IronPdf.com</authors>
+    <owners>Iron PDF Development Team http://IronPdf.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://ironpdf.com/license</licenseUrl>
+    <projectUrl>http://ironpdf.com/</projectUrl>
+    <iconUrl>http://ironsoftware.com/brand/iron-logo-128.png</iconUrl>
+    <description>IronPDF allows developers to create, edit and extract pdf content within .Net Applications &amp; websites.
+
+The Iron PDF library takes the frustration out of generating PDF documents by not relying on proprietary APIs. "Html-To-Pdf" renders pixel-perfect PDFs from open standard document types: HTML, JS, CSS, JPG, PNG, GIF, and SVG. In short, it uses skills that developers already posses.  
+
+Key features include:
+* "Html-To-Pdf" creates PDF files from HTML, CSS, JavaScript, and Images.
+* "Url-To-Pdf" generates PDFs from existing html pages by simply providing their URL.
+* "ASPX-To-Pdf" converts ASP.NET web forms directly into downloadable pdfs.
+* "Image-To-PDF" creates PDF documents from image files.
+* PDF to Image functionality can render PDF documents to image files. 
+* Extract text and images from existing PDFs.
+* Create, Fill and read data from PDF forms.
+* Merge, Split and Manipulate PDFs to edit PDF structure and content.  Add Page Numbers, Headers, Footers, Watermarks, Tables, Text and Image Assets.
+* Edit, Stamp and Watermark PDF files with text, images and HTML
+* Apply HTML or PDF backgrounds to PDF pages
+
+IronPDF can be used within ASP.NET projects, MVC, Web Services, Console &amp; Desktop Applications.
+
+Requires .Net Framework 4.0 or above on the Windows platform. Compatible with cloud hosting services including Microsoft Azure.
+
+Licensing &amp; Support available for commercial deployments.
+
+For code examples, documentation &amp; more visit http://ironpdf.com
+
+For support please email us at developers@ironsoftware.com</description>
+    <summary>The C# PDF Library. IronPDF uses HTML5, CSS and Javascript to generate PDF files.
+
+Key Features:
+-  Url To Pdf
+-  Html To Pdf
+- Aspx To Pdf
+- Pdf to Image
+- Forms
+- Edit, Merge and Extract Data</summary>
+    <releaseNotes>Major Release.    New Features:
+
+- Digitally sign PDF documents using  .pfx and .p12 standards.
+- Digital PDF signatures may contain handwriting and image stamp
+- Support for new PDF standards and irefstreams.                
+- Support for stamping existing PDFs with headers and footers with custom page margins or zero margin.
+- Improved license key model with support prioritization for licensed users</releaseNotes>
+    <copyright>IronPdf.com 2015-2018</copyright>
+    <language>en-US</language>
+    <tags>PDF, C#, HTML, ASPX, VB.NET, ASP.NET, Html-to-pdf, aspx, c# pdf, create, render, generate, convert, library</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

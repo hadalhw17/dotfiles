@@ -1,0 +1,121 @@
+[  1490.172] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[  1490.173] 
+X.Org X Server 1.20.3
+X Protocol Version 11, Revision 0
+[  1490.173] Build Operating System: Linux Arch Linux
+[  1490.173] Current Operating System: Linux hadalhw17 4.19.4-arch1-1-ARCH #1 SMP PREEMPT Fri Nov 23 09:06:58 UTC 2018 x86_64
+[  1490.173] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=c2bdc489-4383-4549-8760-43d714e7c411 rw quiet
+[  1490.173] Build Date: 25 October 2018  04:42:32PM
+[  1490.173]  
+[  1490.173] Current version of pixman: 0.36.0
+[  1490.173] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  1490.173] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  1490.174] (==) Log file: "/home/alex/.local/share/xorg/Xorg.0.log", Time: Sat Dec  1 09:55:04 2018
+[  1490.174] (==) Using config file: "/etc/X11/xorg.conf"
+[  1490.174] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  1490.174] (==) ServerLayout "X.org Configured"
+[  1490.174] (**) |-->Screen "Screen0" (0)
+[  1490.174] (**) |   |-->Monitor "Monitor0"
+[  1490.174] (**) |   |-->Device "Card0"
+[  1490.174] (**) |-->Screen "Screen1" (1)
+[  1490.174] (**) |   |-->Monitor "Monitor1"
+[  1490.174] (**) |   |-->Device "Card1"
+[  1490.174] (**) |-->Input Device "Mouse0"
+[  1490.174] (**) |-->Input Device "Keyboard0"
+[  1490.174] (==) Automatically adding devices
+[  1490.174] (==) Automatically enabling devices
+[  1490.174] (==) Automatically adding GPU devices
+[  1490.174] (==) Automatically binding GPU devices
+[  1490.174] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  1490.174] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[  1490.174] 	Entry deleted from font path.
+[  1490.174] (WW) The directory "/usr/share/fonts/TTF" does not exist.
+[  1490.174] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/TTF" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[  1490.175] 	Entry deleted from font path.
+[  1490.175] (**) FontPath set to:
+	
+[  1490.175] (**) ModulePath set to "/usr/lib/xorg/modules"
+[  1490.175] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[  1490.175] (WW) Disabling Mouse0
+[  1490.175] (WW) Disabling Keyboard0
+[  1490.175] (II) Module ABI versions:
+[  1490.175] 	X.Org ANSI C Emulation: 0.4
+[  1490.175] 	X.Org Video Driver: 24.0
+[  1490.175] 	X.Org XInput driver : 24.1
+[  1490.175] 	X.Org Server Extension : 10.0
+[  1490.175] (--) using VT number 7
+
+[  1490.175] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[  1490.176] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  1490.180] (--) PCI:*(0@0:2:0) 8086:0416:1043:185d rev 6, Mem @ 0xf7400000/4194304, 0xd0000000/268435456, I/O @ 0x0000f000/64, BIOS @ 0x????????/131072
+[  1490.180] (--) PCI: (1@0:0:0) 10de:1391:1043:185d rev 162, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[  1490.180] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[  1490.180] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[  1490.180] (II) LoadModule: "glx"
+[  1490.180] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  1490.181] (II) Module glx: vendor="X.Org Foundation"
+[  1490.181] 	compiled for 1.20.3, module version = 1.0.0
+[  1490.181] 	ABI class: X.Org Server Extension, version 10.0
+[  1490.181] (II) LoadModule: "nouveau"
+[  1490.181] (II) Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[  1490.181] (II) Module nouveau: vendor="X.Org Foundation"
+[  1490.181] 	compiled for 1.20.0, module version = 1.0.15
+[  1490.181] 	Module class: X.Org Video Driver
+[  1490.181] 	ABI class: X.Org Video Driver, version 24.0
+[  1490.181] (II) LoadModule: "modesetting"
+[  1490.181] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[  1490.182] (II) Module modesetting: vendor="X.Org Foundation"
+[  1490.182] 	compiled for 1.20.3, module version = 1.20.3
+[  1490.182] 	Module class: X.Org Video Driver
+[  1490.182] 	ABI class: X.Org Video Driver, version 24.0
+[  1490.182] (II) NOUVEAU driver 
+[  1490.182] (II) NOUVEAU driver for NVIDIA chipset families :
+[  1490.182] 	RIVA TNT        (NV04)
+[  1490.182] 	RIVA TNT2       (NV05)
+[  1490.182] 	GeForce 256     (NV10)
+[  1490.182] 	GeForce 2       (NV11, NV15)
+[  1490.182] 	GeForce 4MX     (NV17, NV18)
+[  1490.182] 	GeForce 3       (NV20)
+[  1490.182] 	GeForce 4Ti     (NV25, NV28)
+[  1490.182] 	GeForce FX      (NV3x)
+[  1490.182] 	GeForce 6       (NV4x)
+[  1490.182] 	GeForce 7       (G7x)
+[  1490.182] 	GeForce 8       (G8x)
+[  1490.182] 	GeForce GTX 200 (NVA0)
+[  1490.182] 	GeForce GTX 400 (NVC0)
+[  1490.182] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[  1490.182] (EE) 
+Fatal server error:
+[  1490.182] (EE) xf86OpenConsole: Cannot open virtual console 7 (Permission denied)
+[  1490.182] (EE) 
+[  1490.182] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[  1490.182] (EE) Please also check the log file at "/home/alex/.local/share/xorg/Xorg.0.log" for additional information.
+[  1490.182] (EE) 
+[  1490.182] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[  1490.182] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[  1490.182] (EE) Server terminated with error (1). Closing log file.

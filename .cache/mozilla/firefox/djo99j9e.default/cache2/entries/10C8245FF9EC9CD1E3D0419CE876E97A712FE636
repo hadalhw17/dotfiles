@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    
+    <link rel="stylesheet" href="/public/css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/public/css/tipsy.css" type="text/css" media="screen">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.colorbox.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery.tipsy.js" type="text/javascript"></script>
+    <script src="/public/js/ds.js" type="text/javascript"></script>
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-24042959-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+    <title>DotShare.it</title>
+</head>
+
+<body>
+
+<div id="header">
+    <div id="nav">
+        <ul class="label">
+            <li><span class="orange">.</span>share</li>
+        </ul>
+        
+        <ul>
+            <li>guest<span class="gray">@</span>dotshare <span class="gray">[</span>~<span class="gray">]</span> <span class="gray">$</span> ls -a nav/</li>
+            
+            <li><a href="/">..</a></li>
+            <li><a href="/news/">news</a></li>
+            <li><a href="/dots/">browse</a></li>
+            
+            
+            
+            <li><a href="/about/">about</a></li>
+            
+            
+            
+            
+                <li><a href="/login/">login</a></li>
+                <li><a href="/register/">register</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="donate">
+        <ul>
+            <li><a href="/donate/">donate</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="commands">
+    <div id="command">
+        <p>
+    <span class="dark-gray">guest</span>@<span class="dark-gray">dotshare</span> [<span class="dark-gray">~/groups/wms/i3</span>] <span class="dark-gray">$</span> ls
+</p>
+    </div>
+</div>
+
+<div id="container">
+    <div id="categories">
+    <ul>
+        
+            <li class="label">
+                chat/
+                
+                <ul>
+                    
+                        <li><a href="/category/chat/irssi/">irssi</a></li>
+                    
+                        <li><a href="/category/chat/weechat/">weechat</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                emacs/
+                
+                <ul>
+                    
+                        <li><a href="/category/emacs/colors/">colors</a></li>
+                    
+                        <li><a href="/category/emacs/config/">config</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                fms/
+                
+                <ul>
+                    
+                        <li><a href="/category/fms/mc/">mc</a></li>
+                    
+                        <li><a href="/category/fms/ranger/">ranger</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                info/
+                
+                <ul>
+                    
+                        <li><a href="/category/info/conky/">conky</a></li>
+                    
+                        <li><a href="/category/info/dzen2/">dzen2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                misc/
+                
+                <ul>
+                    
+                        <li><a href="/category/misc/misc/">misc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                mpd/
+                
+                <ul>
+                    
+                        <li><a href="/category/mpd/ncmpcpp/">ncmpcpp</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                panels/
+                
+                <ul>
+                    
+                        <li><a href="/category/panels/bmpanel/">bmpanel</a></li>
+                    
+                        <li><a href="/category/panels/lxpanel/">lxpanel</a></li>
+                    
+                        <li><a href="/category/panels/pypanel/">pypanel</a></li>
+                    
+                        <li><a href="/category/panels/tint2/">tint2</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                shells/
+                
+                <ul>
+                    
+                        <li><a href="/category/shells/bash/">bash</a></li>
+                    
+                        <li><a href="/category/shells/tcsh/">tcsh</a></li>
+                    
+                        <li><a href="/category/shells/zsh/">zsh</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                terms/
+                
+                <ul>
+                    
+                        <li><a href="/category/terms/colors/">colors</a></li>
+                    
+                        <li><a href="/category/terms/screen/">screen</a></li>
+                    
+                        <li><a href="/category/terms/tmux/">tmux</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                vim/
+                
+                <ul>
+                    
+                        <li><a href="/category/vim/colors/">colors</a></li>
+                    
+                        <li><a href="/category/vim/rc/">rc</a></li>
+                    
+                </ul>
+            </li>
+        
+            <li class="label">
+                wms/
+                
+                <ul>
+                    
+                        <li><a href="/category/wms/awesome/">awesome</a></li>
+                    
+                        <li><a href="/category/wms/bspwm/">bspwm</a></li>
+                    
+                        <li><a href="/category/wms/dwm/">dwm</a></li>
+                    
+                        <li><a href="/category/wms/fluxbox/">fluxbox</a></li>
+                    
+                        <li><a href="/category/wms/fvwm/">fvwm</a></li>
+                    
+                        <li><a href="/category/wms/herbstluft/">herbstluft</a></li>
+                    
+                        <li><a href="/category/wms/i3/">i3</a></li>
+                    
+                        <li><a href="/category/wms/monster/">monster</a></li>
+                    
+                        <li><a href="/category/wms/openbox/">openbox</a></li>
+                    
+                        <li><a href="/category/wms/ratpoison/">ratpoison</a></li>
+                    
+                        <li><a href="/category/wms/spectrwm/">spectrwm</a></li>
+                    
+                        <li><a href="/category/wms/stumpwm/">stumpwm</a></li>
+                    
+                        <li><a href="/category/wms/subtle/">subtle</a></li>
+                    
+                        <li><a href="/category/wms/wmfs/">wmfs</a></li>
+                    
+                        <li><a href="/category/wms/xmonad/">xmonad</a></li>
+                    
+                </ul>
+            </li>
+        
+    </ul>
+</div>
+    
+    <div id="content">
+        
+    
+
+        
+    <div class="item">
+        <div class="header">
+            <h1>Moar dots!</h1>
+        </div>
+        
+        <div class="content">
+            
+                <table id="dots">
+                    <thead>
+                        <tr>
+                            
+                                <th><a href="/category/wms/i3/sort/title/">Title</a></th>
+                            
+                            
+                            <th>User</th>
+                            
+                            
+                                <th><a href="/category/wms/i3/rsort/date/">Date</a></th>
+                            
+                            
+                            
+                                <th><a class="likes" href="/category/wms/i3/sort/likes/"><img src="/public/images/like.png" width="16" height="16" alt="likes"></a></th>
+                            
+                            
+                            
+                                <th><a class="comments" href="/category/wms/i3/sort/comments/"><img src="/public/images/comments.png" width="16" height="16" alt="comments"></a></th>
+                            
+                            
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        
+                            
+                                <tr>
+                                    <td><a href="/dots/8338/">i3 desktop with i3blocks status</a></td>
+                                    <td><a href="/~unixbhaskar/">unixbhaskar</a></td>
+                                    <td>Nov 30, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8338.png" rel="scrot" title="i3 desktop with i3blocks status:unixbhaskar:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8337/">I3wm with i3blocks</a></td>
+                                    <td><a href="/~unixbhaskar/">unixbhaskar</a></td>
+                                    <td>Nov 30, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8337.png" rel="scrot" title="I3wm with i3blocks:unixbhaskar:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8331/">i3lock theme</a></td>
+                                    <td><a href="/~tungcena/">tungcena</a></td>
+                                    <td>Oct 28, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8331.jpg" rel="scrot" title="i3lock theme:tungcena:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8330/">Rofi theme</a></td>
+                                    <td><a href="/~tungcena/">tungcena</a></td>
+                                    <td>Oct 28, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8330.png" rel="scrot" title="Rofi theme:tungcena:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8326/">Black_Admin_Minimal_Rice</a></td>
+                                    <td><a href="/~mohabaks/">mohabaks</a></td>
+                                    <td>Oct 09, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8326.png" rel="scrot" title="Black_Admin_Minimal_Rice:mohabaks:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8317/">Slack i3+I3blocks</a></td>
+                                    <td><a href="/~marav/">marav</a></td>
+                                    <td>Sep 24, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8317.png" rel="scrot" title="Slack i3+I3blocks:marav:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8312/">[i3-gaps+goblocks] Tron Senshi</a></td>
+                                    <td><a href="/~t3hyoshi/">t3hyoshi</a></td>
+                                    <td>Aug 22, 2018</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8312.png" rel="scrot" title="[i3-gaps+goblocks] Tron Senshi:t3hyoshi:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8311/">i3wm+polybar+dunst(powerline)</a></td>
+                                    <td><a href="/~f0s3/">f0s3</a></td>
+                                    <td>Aug 21, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8311.png" rel="scrot" title="i3wm+polybar+dunst(powerline):f0s3:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8308/">Lancs_i3wm_desk</a></td>
+                                    <td><a href="/~lancs/">lancs</a></td>
+                                    <td>Jul 14, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8308.png" rel="scrot" title="Lancs_i3wm_desk:lancs:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8291/">My laptops</a></td>
+                                    <td><a href="/~yuri/">yuri</a></td>
+                                    <td>May 27, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8287/">i3 tmux mutt ncmpcpp @Arch</a></td>
+                                    <td><a href="/~cristianpb/">cristianpb</a></td>
+                                    <td>Apr 27, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8287.png" rel="scrot" title="i3 tmux mutt ncmpcpp @Arch:cristianpb:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8285/">i3+polybar@Arch</a></td>
+                                    <td><a href="/~Twor/">Twor</a></td>
+                                    <td>Apr 14, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8285.png" rel="scrot" title="i3+polybar@Arch:Twor:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8284/">i3wm-light</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Apr 11, 2018</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8284.png" rel="scrot" title="i3wm-light:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8281/">i3config little solar</a></td>
+                                    <td><a href="/~zionek/">zionek</a></td>
+                                    <td>Mar 26, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8281.png" rel="scrot" title="i3config little solar:zionek:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8278/">My ugly i3 config</a></td>
+                                    <td><a href="/~x64l/">x64l</a></td>
+                                    <td>Mar 17, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8278.png" rel="scrot" title="My ugly i3 config:x64l:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8275/">Melon</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Feb 28, 2018</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8275.jpg" rel="scrot" title="Melon:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8274/">Black i3 :)</a></td>
+                                    <td><a href="/~YangMame/">YangMame</a></td>
+                                    <td>Feb 28, 2018</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8274.png" rel="scrot" title="Black i3 :):YangMame:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8270/">i3 + polybar @Arch</a></td>
+                                    <td><a href="/~KabirGandhiok/">KabirGandhiok</a></td>
+                                    <td>Feb 17, 2018</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8270.png" rel="scrot" title="i3 + polybar @Arch:KabirGandhiok:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8264/">txgvnn/i3-config</a></td>
+                                    <td><a href="/~txgvnn/">txgvnn</a></td>
+                                    <td>Feb 10, 2018</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8264.png" rel="scrot" title="txgvnn/i3-config:txgvnn:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8260/">I3 gaps / i3blocks-gaps</a></td>
+                                    <td><a href="/~theFinn/">theFinn</a></td>
+                                    <td>Feb 04, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8260.png" rel="scrot" title="I3 gaps / i3blocks-gaps:theFinn:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8259/">I3 gaps / i3blocks-gaps</a></td>
+                                    <td><a href="/~theFinn/">theFinn</a></td>
+                                    <td>Feb 04, 2018</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8259.png" rel="scrot" title="I3 gaps / i3blocks-gaps:theFinn:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8251/">i3 + Polybar</a></td>
+                                    <td><a href="/~IzacCF/">IzacCF</a></td>
+                                    <td>Jan 10, 2018</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8251.png" rel="scrot" title="i3 + Polybar:IzacCF:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8245/">Madness</a></td>
+                                    <td><a href="/~szorfein/">szorfein</a></td>
+                                    <td>Dec 15, 2017</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8245.jpg" rel="scrot" title="Madness:szorfein:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/8244/">Minimalism</a></td>
+                                    <td><a href="/~mohabaks/">mohabaks</a></td>
+                                    <td>Dec 09, 2017</td>
+                                    <td class="likes">+7</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/8244.png" rel="scrot" title="Minimalism:mohabaks:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1557/">zen arch</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>Nov 06, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1557.png" rel="scrot" title="zen arch:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1546/">Momiji!! (fall17)</a></td>
+                                    <td><a href="/~r/">r</a></td>
+                                    <td>Oct 01, 2017</td>
+                                    <td class="likes">+7</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1546.png" rel="scrot" title="Momiji!! (fall17):r:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1543/">fall update</a></td>
+                                    <td><a href="/~okubax/">okubax</a></td>
+                                    <td>Sep 25, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1543.jpg" rel="scrot" title="fall update:okubax:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1542/">nothing too fancy</a></td>
+                                    <td><a href="/~candypaint/">candypaint</a></td>
+                                    <td>Sep 21, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1542.png" rel="scrot" title="nothing too fancy:candypaint:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1541/">Luna</a></td>
+                                    <td><a href="/~szorfein/">szorfein</a></td>
+                                    <td>Sep 14, 2017</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">6</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1541.jpg" rel="scrot" title="Luna:szorfein:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1539/">Synthvawe desktop</a></td>
+                                    <td><a href="/~MCcomando/">MCcomando</a></td>
+                                    <td>Sep 09, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1539.jpg" rel="scrot" title="Synthvawe desktop:MCcomando:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1537/">Archlinux+i3</a></td>
+                                    <td><a href="/~ice/">ice</a></td>
+                                    <td>Sep 04, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1537.png" rel="scrot" title="Archlinux+i3:ice:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1528/">i3 Desert sunset</a></td>
+                                    <td><a href="/~Ogis1975/">Ogis1975</a></td>
+                                    <td>Aug 14, 2017</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1528.jpg" rel="scrot" title="i3 Desert sunset:Ogis1975:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1527/">i3 simple dark </a></td>
+                                    <td><a href="/~fireKIte/">fireKIte</a></td>
+                                    <td>Aug 11, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1527.png" rel="scrot" title="i3 simple dark :fireKIte:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1525/">i3wm Selvans</a></td>
+                                    <td><a href="/~Ogis1975/">Ogis1975</a></td>
+                                    <td>Aug 04, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1525.jpg" rel="scrot" title="i3wm Selvans:Ogis1975:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1520/">perfect blue i3</a></td>
+                                    <td><a href="/~bearz42/">bearz42</a></td>
+                                    <td>Jul 30, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1520.png" rel="scrot" title="perfect blue i3:bearz42:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1512/">GrayNito</a></td>
+                                    <td><a href="/~vegangaro/">vegangaro</a></td>
+                                    <td>Jul 20, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1512.jpg" rel="scrot" title="GrayNito:vegangaro:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1508/">i3-gaps Config</a></td>
+                                    <td><a href="/~sistematico/">sistematico</a></td>
+                                    <td>Jul 11, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">5</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1508.png" rel="scrot" title="i3-gaps Config:sistematico:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1502/">i3wm google material design</a></td>
+                                    <td><a href="/~Ogis1975/">Ogis1975</a></td>
+                                    <td>Jul 04, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1502.png" rel="scrot" title="i3wm google material design:Ogis1975:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1500/">my-gruvbox-rice</a></td>
+                                    <td><a href="/~mohabaks/">mohabaks</a></td>
+                                    <td>Jul 02, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1500.png" rel="scrot" title="my-gruvbox-rice:mohabaks:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1487/">scrot of my i3 with rofi</a></td>
+                                    <td><a href="/~inavl/">inavl</a></td>
+                                    <td>Jun 03, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1487.png" rel="scrot" title="scrot of my i3 with rofi:inavl:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1485/">My first setup (in progress)</a></td>
+                                    <td><a href="/~inavl/">inavl</a></td>
+                                    <td>Jun 03, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1485.png" rel="scrot" title="My first setup (in progress):inavl:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1478/">DÃ©sabusÃ©e way of life...</a></td>
+                                    <td><a href="/~presse1citron/">presse1citron</a></td>
+                                    <td>May 16, 2017</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1478.png" rel="scrot" title="DÃ©sabusÃ©e way of life...:presse1citron:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1476/">my-simple_i3</a></td>
+                                    <td><a href="/~zxary/">zxary</a></td>
+                                    <td>May 02, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1476.png" rel="scrot" title="my-simple_i3:zxary:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1473/">dark green</a></td>
+                                    <td><a href="/~paranoid73/">paranoid73</a></td>
+                                    <td>Apr 27, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">2</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1473.png" rel="scrot" title="dark green:paranoid73:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1469/">City</a></td>
+                                    <td><a href="/~szorfein/">szorfein</a></td>
+                                    <td>Apr 09, 2017</td>
+                                    <td class="likes">+2</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1469.jpg" rel="scrot" title="City:szorfein:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1468/">Nice Arch</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Apr 07, 2017</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1468.jpg" rel="scrot" title="Nice Arch:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1467/">Three i3 themes</a></td>
+                                    <td><a href="/~LightAir/">LightAir</a></td>
+                                    <td>Apr 06, 2017</td>
+                                    <td class="likes">+1</td>
+                                    <td class="comments">1</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1467.png" rel="scrot" title="Three i3 themes:LightAir:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1460/">sober</a></td>
+                                    <td><a href="/~virus69/">virus69</a></td>
+                                    <td>Mar 14, 2017</td>
+                                    <td class="likes">+3</td>
+                                    <td class="comments">3</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1460.jpg" rel="scrot" title="sober:virus69:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1454/">i3wm solarized</a></td>
+                                    <td><a href="/~Ogis1975/">Ogis1975</a></td>
+                                    <td>Mar 11, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            <a href="/public/images/uploads/1454.png" rel="scrot" title="i3wm solarized:Ogis1975:wms:i3"><img src="/public/images/scrot.png" width="16" height="16" alt="scrot"></a>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td><a href="/dots/1452/">solarized everything everywhere</a></td>
+                                    <td><a href="/~zylent/">zylent</a></td>
+                                    <td>Mar 01, 2017</td>
+                                    <td class="likes">&nbsp;</td>
+                                    <td class="comments">&nbsp;</td>
+                                    <td>
+                                        
+                                            &nbsp;
+                                        
+                                    </td>
+                                </tr>
+                            
+                        
+                    </tbody>
+                </table>
+            
+        </div>
+    </div>
+    
+    
+        <div id="pages">
+            
+                
+                    
+                        <strong>1</strong>
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/wms/i3/p/2/">2</a>
+                        
+                    
+                
+            
+                
+                    
+                        
+                            <a href="/category/wms/i3/p/3/">3</a>
+                        
+                    
+                
+            
+        </div>
+    
+
+    </div>
+    
+    <div id="footer">&nbsp;</div>
+</div>
+
+<div id="logo">
+    <a href="/"><img src="/public/images/logo.png" width="62" height="63" alt="DotShare.it"></a>
+</div>
+
+</body>
+</html>ù8óƒÄe           \CE?Çõ       $    :http://dotshare.it/category/wms/i3/ strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Sun, 02 Dec 2018 20:40:35 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 52100
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 02 Dec 2018 20:40:35 GMT
+Server: Apache/2.4.10 (Unix) PHP/5.5.21 mod_wsgi/4.4.5 Python/2.7.9
+Content-Length: 52100
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+ uncompressed-len 0 predictor::resource-count 9 predictor::http://dotshare.it/public/css/screen.css 1,1,0,4096 predictor::http://dotshare.it/public/css/colorbox.css 1,1,0,4096 predictor::http://dotshare.it/public/css/tipsy.css 1,1,0,4096 predictor::http://dotshare.it/public/js/jquery.min.js 1,1,0,4096 predictor::http://dotshare.it/public/js/jquery.ui.min.js 1,1,0,4096 predictor::http://dotshare.it/public/js/jquery.colorbox.min.js 1,1,0,4096 predictor::http://dotshare.it/public/js/jquery.tipsy.js 1,1,0,4096 predictor::http://dotshare.it/public/js/ds.js 1,1,0,4096 predictor::http://www.google-analytics.com/ga.js 1,1,0,4096   Ë„

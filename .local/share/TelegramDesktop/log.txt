@@ -1,0 +1,1085 @@
+[2018.12.20 14:12:51] Launched version: 1005002, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2018.12.20 14:12:51] Executable dir: /home/alex/Programs/Telegram/, name: Telegram
+[2018.12.20 14:12:51] Initial working dir: /home/alex/.local/share/TelegramDesktop/
+[2018.12.20 14:12:51] Working dir: /home/alex/.local/share/TelegramDesktop/
+[2018.12.20 14:12:51] Command line: /home/alex/Programs/Telegram/Telegram -noupdate
+[2018.12.20 14:12:51] Executable path before check: /home/alex/Programs/Telegram/Telegram
+[2018.12.20 14:12:51] Logs started
+[2018.12.20 14:12:51] Fontconfig version: 2.13.1.
+[2018.12.20 14:12:51] Custom FONTCONFIG_FILE: /home/alex/.local/share/TelegramDesktop/tdata/fc-custom-1.conf
+[2018.12.20 14:12:51] Connecting local socket to /tmp/3b4e7fb4572a111b1e06bd66ed269633-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2018.12.20 14:12:51] This is the only instance of Telegram, starting server and app...
+[2018.12.20 14:12:51] Moved logging from '/home/alex/.local/share/TelegramDesktop/log_start0.txt' to '/home/alex/.local/share/TelegramDesktop/log.txt'!
+[2018.12.20 14:12:51] Old start log 'log_start1.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start2.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start3.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start4.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start5.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start6.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start7.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start8.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Old start log 'log_start9.txt' found, deleted: [TRUE]
+[2018.12.20 14:12:51] Opened '/home/alex/.local/share/TelegramDesktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 0
+[2018.12.20 14:12:51] Primary screen DPI: 96.1263
+[2018.12.20 14:12:52] Could not load 'ayatana-appindicator3' with version 1 :(
+[2018.12.20 14:12:52] Could not load 'appindicator3' with version 1 :(
+[2018.12.20 14:12:52] Could not load 'ayatana-appindicator' with version 1 :(
+[2018.12.20 14:12:52] Could not load 'appindicator' with version 1 :(
+[2018.12.20 14:12:52] Error: failed to load 'gdk_x11_drawable_get_xdisplay' function!
+[2018.12.20 14:12:52] Getting DE, XDG_CURRENT_DESKTOP: 'i3'
+[2018.12.20 14:12:52] Getting DE, DESKTOP_SESSION: 'i3'
+[2018.12.20 14:12:52] Getting DE, KDE_SESSION_VERSION: ''
+[2018.12.20 14:12:52] Getting DE, GNOME_DESKTOP_SESSION_ID: ''
+[2018.12.20 14:12:52] Getting DE, KDE_FULL_SESSION: ''
+[2018.12.20 14:12:52] DE: Other
+[2018.12.20 14:12:52] Tray Icon: Try Qt = [TRUE], Prefer appindicator = [FALSE]
+[2018.12.20 14:12:52] App Info: reading settings...
+[2018.12.20 14:12:52] App Info: reading encrypted settings...
+[2018.12.20 14:12:52] Lang Info: Loaded cached, keys: 2081
+[2018.12.20 14:12:54] OpenAL Logging Level: (not set)
+[2018.12.20 14:12:54] Audio Playback Devices: OpenAL Soft
+[2018.12.20 14:12:54] Audio Playback Default Device: OpenAL Soft
+[2018.12.20 14:12:54] Audio Capture Devices: Built-in Audio Analog Stereo;Monitor of Built-in Audio Analog Stereo
+[2018.12.20 14:12:54] Audio Capture Default Device: Built-in Audio Analog Stereo
+[2018.12.20 14:12:58] App Info: reading map...
+[2018.12.20 14:12:58] App Info: reading encrypted map...
+[2018.12.20 14:12:58] App Info: reading encrypted user settings...
+[2018.12.20 14:12:58] App Info: encrypted user settings read.
+[2018.12.20 14:12:58] App Info: reading encrypted mtp data...
+[2018.12.20 14:12:58] MTP Info: read keys, current: 5, to destroy: 0
+[2018.12.20 14:12:58] Map read time: 215
+[2018.12.20 14:12:58] Export Info: Destroy top bar by controller removal.
+[2018.12.20 14:12:58] Using Qt tray icon.
+[2018.12.20 14:12:58] Tray Icon: Using Qt tray icon, available: [TRUE]
+[2018.12.20 14:12:58] Not using Unity Launcher count.
+[2018.12.20 14:12:58] TCP Error: network - Network unreachable
+[2018.12.20 14:12:58] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:12:59] TCP Error: network - Network unreachable
+[2018.12.20 14:12:59] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:01] TCP Error: network - Network unreachable
+[2018.12.20 14:13:01] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:05] TCP Error: network - Network unreachable
+[2018.12.20 14:13:05] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:05] TCP Error: network - Network unreachable
+[2018.12.20 14:13:05] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:06] Config Error: Bad digest.
+[2018.12.20 14:13:06] TCP Error: network - Network unreachable
+[2018.12.20 14:13:06] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:07] TCP Error: network - Network unreachable
+[2018.12.20 14:13:07] TCP Error: network - Network unreachable
+[2018.12.20 14:13:07] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:07] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:07] Audio Info: recreating audio device and reattaching the tracks
+[2018.12.20 14:13:09] Audio Info: Closing audio playback device.
+[2018.12.20 14:13:16] TCP Error: network - Network unreachable
+[2018.12.20 14:13:16] TCP Error: network - Network unreachable
+[2018.12.20 14:13:16] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:16] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:29] TCP Error: network - Network unreachable
+[2018.12.20 14:13:29] TCP Error: network - Network unreachable
+[2018.12.20 14:13:29] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:13:29] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:18:12] Message Info: bad message notification received (error_code 16) for msg_id = 6637078220859006248, seq_no = 124
+[2018.12.20 14:18:22] Message Info: bad message notification received (error_code 16) for msg_id = 6637078220859006252, seq_no = 124
+[2018.12.20 14:18:24] Message Info: bad message notification received (error_code 16) for msg_id = 6637078220859006256, seq_no = 125
+[2018.12.20 14:22:29] TCP Error: network - Network unreachable
+[2018.12.20 14:22:29] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:23:29] Message Info: bad message notification received (error_code 16) for msg_id = 6637079582973726156, seq_no = 147
+[2018.12.20 14:28:31] Message Info: bad message notification received (error_code 16) for msg_id = 6637080893900582680, seq_no = 173
+[2018.12.20 14:33:41] Message Info: bad message notification received (error_code 16) for msg_id = 6637082192187454436, seq_no = 192
+[2018.12.20 14:34:26] Could not send ping for some seconds, restarting...
+[2018.12.20 14:34:26] TCP Error: network - Network unreachable
+[2018.12.20 14:34:26] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:38:45] Message Info: bad message notification received (error_code 16) for msg_id = 6637083520415428180, seq_no = 212
+[2018.12.20 14:39:12] TCP Error: network - Network unreachable
+[2018.12.20 14:39:12] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:44:26] Message Info: bad message notification received (error_code 16) for msg_id = 6637084825940532960, seq_no = 233
+[2018.12.20 14:55:32] TCP Error: network - Network unreachable
+[2018.12.20 14:55:32] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 14:55:32] Message Info: bad message notification received (error_code 16) for msg_id = 6637086290764427796, seq_no = 241
+[2018.12.20 15:00:37] Message Info: bad message notification received (error_code 16) for msg_id = 6637089154833222580, seq_no = 266
+[2018.12.20 15:00:52] Message Info: bad message notification received (error_code 16) for msg_id = 6637089154833222584, seq_no = 266
+[2018.12.20 15:01:08] Message Info: bad message notification received (error_code 16) for msg_id = 6637089154833222596, seq_no = 268
+[2018.12.20 15:01:27] TCP Error: network - Network unreachable
+[2018.12.20 15:01:27] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:02:35] TCP Error: network - Network unreachable
+[2018.12.20 15:02:35] TCP Error: network - Network unreachable
+[2018.12.20 15:02:35] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:02:35] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:02:35] TCP Error: network - Network unreachable
+[2018.12.20 15:02:35] TCP Error: network - Network unreachable
+[2018.12.20 15:02:35] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:02:35] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:06:15] Message Info: bad message notification received (error_code 16) for msg_id = 6637090598105259652, seq_no = 362
+[2018.12.20 15:06:33] TCP Error: network - Network unreachable
+[2018.12.20 15:06:33] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:11:29] Message Info: bad message notification received (error_code 16) for msg_id = 6637091913254611484, seq_no = 382
+[2018.12.20 15:11:54] TCP Error: network - Network unreachable
+[2018.12.20 15:11:54] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:20:49] TCP Error: network - Network unreachable
+[2018.12.20 15:20:49] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:20:50] Message Info: bad message notification received (error_code 16) for msg_id = 6637093263965522504, seq_no = 395
+[2018.12.20 15:25:55] Message Info: bad message notification received (error_code 16) for msg_id = 6637095666561804756, seq_no = 416
+[2018.12.20 15:26:08] Message Info: bad message notification received (error_code 16) for msg_id = 6637095666561804760, seq_no = 416
+[2018.12.20 15:26:24] Message Info: bad message notification received (error_code 16) for msg_id = 6637095666561804764, seq_no = 417
+[2018.12.20 15:26:39] TCP Error: network - Network unreachable
+[2018.12.20 15:26:39] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:28:43] TCP Error: network - Network unreachable
+[2018.12.20 15:28:43] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:31:46] Message Info: bad message notification received (error_code 16) for msg_id = 6637097108206644268, seq_no = 444
+[2018.12.20 15:32:02] Message Info: bad message notification received (error_code 16) for msg_id = 6637097108206644272, seq_no = 445
+[2018.12.20 15:32:17] TCP Error: network - Network unreachable
+[2018.12.20 15:32:17] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:37:41] Message Info: bad message notification received (error_code 16) for msg_id = 6637098558498274840, seq_no = 465
+[2018.12.20 15:37:56] TCP Error: network - Network unreachable
+[2018.12.20 15:37:56] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:42:48] Message Info: bad message notification received (error_code 16) for msg_id = 6637100013795610436, seq_no = 483
+[2018.12.20 15:43:03] TCP Error: network - Network unreachable
+[2018.12.20 15:43:03] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:47:52] Message Info: bad message notification received (error_code 16) for msg_id = 6637101333473782288, seq_no = 502
+[2018.12.20 15:48:08] TCP Error: network - Network unreachable
+[2018.12.20 15:48:08] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:53:33] Message Info: bad message notification received (error_code 16) for msg_id = 6637102637136052908, seq_no = 523
+[2018.12.20 15:53:48] TCP Error: network - Network unreachable
+[2018.12.20 15:53:48] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:58:56] Message Info: bad message notification received (error_code 16) for msg_id = 6637104104072637560, seq_no = 545
+[2018.12.20 15:59:12] TCP Error: network - Network unreachable
+[2018.12.20 15:59:12] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:59:12] TCP Error: network - Network unreachable
+[2018.12.20 15:59:12] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 15:59:25] TCP Error: network - Network unreachable
+[2018.12.20 15:59:25] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:31:07] TCP Error: network - Network unreachable
+[2018.12.20 18:31:07] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:31:53] Message Info: bad message notification received (error_code 16) for msg_id = 6637105489440165416, seq_no = 603
+[2018.12.20 18:37:04] Message Info: bad message notification received (error_code 16) for msg_id = 6637144901712314692, seq_no = 629
+[2018.12.20 18:37:19] TCP Error: network - Network unreachable
+[2018.12.20 18:37:19] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:42:06] Message Info: bad message notification received (error_code 16) for msg_id = 6637146236306158688, seq_no = 655
+[2018.12.20 18:42:21] TCP Error: network - Network unreachable
+[2018.12.20 18:42:21] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:47:21] Message Info: bad message notification received (error_code 16) for msg_id = 6637147533289746396, seq_no = 678
+[2018.12.20 18:47:51] TCP Error: network - Network unreachable
+[2018.12.20 18:47:51] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:49:37] TCP Error: network - Network unreachable
+[2018.12.20 18:49:37] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:51:25] TCP Error: network - Network unreachable
+[2018.12.20 18:51:25] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 18:52:40] Message Info: bad message notification received (error_code 16) for msg_id = 6637148892854540200, seq_no = 711
+[2018.12.20 18:58:10] Message Info: bad message notification received (error_code 16) for msg_id = 6637150259564329648, seq_no = 733
+[2018.12.20 19:03:41] Message Info: bad message notification received (error_code 16) for msg_id = 6637151680134772904, seq_no = 753
+[2018.12.20 19:08:59] Message Info: bad message notification received (error_code 16) for msg_id = 6637153098648769908, seq_no = 772
+[2018.12.20 19:09:04] Message Info: bad message notification received (error_code 16) for msg_id = 6637153098648769912, seq_no = 772
+[2018.12.20 19:09:16] Message Info: bad message notification received (error_code 16) for msg_id = 6637153098648769924, seq_no = 774
+[2018.12.20 19:09:38] TCP Error: network - Network unreachable
+[2018.12.20 19:09:38] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 19:14:41] Message Info: bad message notification received (error_code 16) for msg_id = 6637154540728702724, seq_no = 793
+[2018.12.20 19:14:55] TCP Error: network - Network unreachable
+[2018.12.20 19:14:55] HTTP Error: network error 99 - Network unreachable
+[2018.12.20 19:20:20] Message Info: bad message notification received (error_code 16) for msg_id = 6637155930440746300, seq_no = 819
+[2018.12.20 19:20:34] TCP Error: network - Network unreachable
+[2018.12.20 19:20:34] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:08:54] TCP Error: network - Network unreachable
+[2018.12.21 14:08:54] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:09:39] Message Info: bad message notification received (error_code 16) for msg_id = 6637157385347752604, seq_no = 837
+[2018.12.21 14:10:25] TCP Error: network - Network unreachable
+[2018.12.21 14:10:25] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:10:26] TCP Error: network - Network unreachable
+[2018.12.21 14:10:26] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:25:40] TCP Error: network - Network unreachable
+[2018.12.21 14:25:40] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:25:40] Message Info: bad message notification received (error_code 16) for msg_id = 6637448414239042852, seq_no = 883
+[2018.12.21 14:26:18] TCP Error: network - Network unreachable
+[2018.12.21 14:26:18] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:26:18] TCP Error: network - Network unreachable
+[2018.12.21 14:26:18] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:31:03] Message Info: bad message notification received (error_code 16) for msg_id = 6637452545582619644, seq_no = 913
+[2018.12.21 14:31:18] TCP Error: network - Network unreachable
+[2018.12.21 14:31:18] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:34:56] TCP Error: network - Network unreachable
+[2018.12.21 14:34:56] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:36:11] Message Info: bad message notification received (error_code 16) for msg_id = 6637453933937162744, seq_no = 939
+[2018.12.21 14:36:26] TCP Error: network - Network unreachable
+[2018.12.21 14:36:26] HTTP Error: network error 99 - Network unreachable
+[2018.12.21 14:41:24] Message Info: bad message notification received (error_code 16) for msg_id = 6637455258168960324, seq_no = 957
+[2018.12.21 14:41:39] TCP Error: network - Network unreachable
+[2018.12.21 14:41:39] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 07:59:51] TCP Error: network - Network unreachable
+[2018.12.22 07:59:51] TCP Error: network - Network unreachable
+[2018.12.22 07:59:51] TCP Error: network - Network unreachable
+[2018.12.22 07:59:51] TCP Error: network - Network unreachable
+[2018.12.22 07:59:51] TCP Error: network - Network unreachable
+[2018.12.22 07:59:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] TCP Error: network - Network unreachable
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:53] TCP Error: network - Network unreachable
+[2018.12.22 07:59:53] TCP Error: network - Network unreachable
+[2018.12.22 07:59:53] TCP Error: network - Network unreachable
+[2018.12.22 07:59:53] TCP Error: network - Network unreachable
+[2018.12.22 07:59:53] TCP Error: network - Network unreachable
+[2018.12.22 07:59:53] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:53] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:55] TCP Error: network - Network unreachable
+[2018.12.22 07:59:55] TCP Error: network - Network unreachable
+[2018.12.22 07:59:55] TCP Error: network - Network unreachable
+[2018.12.22 07:59:55] TCP Error: network - Network unreachable
+[2018.12.22 07:59:55] TCP Error: network - Network unreachable
+[2018.12.22 07:59:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:59] TCP Error: network - Network unreachable
+[2018.12.22 07:59:59] TCP Error: network - Network unreachable
+[2018.12.22 07:59:59] TCP Error: network - Network unreachable
+[2018.12.22 07:59:59] TCP Error: network - Network unreachable
+[2018.12.22 07:59:59] TCP Error: network - Network unreachable
+[2018.12.22 07:59:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 07:59:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:07] TCP Error: network - Network unreachable
+[2018.12.22 08:00:07] TCP Error: network - Network unreachable
+[2018.12.22 08:00:07] TCP Error: network - Network unreachable
+[2018.12.22 08:00:07] TCP Error: network - Network unreachable
+[2018.12.22 08:00:07] TCP Error: network - Network unreachable
+[2018.12.22 08:00:07] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:07] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:15] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:15] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] TCP Error: network - Network unreachable
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:15] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:16] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:16] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:16] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:16] TCP Error: network - Network unreachable
+[2018.12.22 08:00:16] TCP Error: network - Network unreachable
+[2018.12.22 08:00:16] TCP Error: network - Network unreachable
+[2018.12.22 08:00:16] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:16] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:17] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:17] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:18] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:18] TCP Error: network - Network unreachable
+[2018.12.22 08:00:18] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:18] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:18] TCP Error: network - Network unreachable
+[2018.12.22 08:00:18] TCP Error: network - Network unreachable
+[2018.12.22 08:00:18] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:18] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:19] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:19] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:19] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:22] TCP Error: network - Network unreachable
+[2018.12.22 08:00:22] TCP Error: network - Network unreachable
+[2018.12.22 08:00:22] TCP Error: network - Network unreachable
+[2018.12.22 08:00:22] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:22] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:23] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:23] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] TCP Error: network - Network unreachable
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:23] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:24] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:24] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:24] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:24] TCP Error: network - Network unreachable
+[2018.12.22 08:00:24] TCP Error: network - Network unreachable
+[2018.12.22 08:00:24] TCP Error: network - Network unreachable
+[2018.12.22 08:00:24] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:24] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:25] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:25] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:26] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:26] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:26] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:26] TCP Error: network - Network unreachable
+[2018.12.22 08:00:26] TCP Error: network - Network unreachable
+[2018.12.22 08:00:26] TCP Error: network - Network unreachable
+[2018.12.22 08:00:26] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:26] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:27] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:27] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:27] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:30] TCP Error: network - Network unreachable
+[2018.12.22 08:00:30] TCP Error: network - Network unreachable
+[2018.12.22 08:00:30] TCP Error: network - Network unreachable
+[2018.12.22 08:00:30] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:30] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:31] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] TCP Error: network - Network unreachable
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:31] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:32] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:32] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:32] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:32] TCP Error: network - Network unreachable
+[2018.12.22 08:00:32] TCP Error: network - Network unreachable
+[2018.12.22 08:00:32] TCP Error: network - Network unreachable
+[2018.12.22 08:00:32] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:32] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:33] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:33] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:33] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:34] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:34] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:34] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:34] TCP Error: network - Network unreachable
+[2018.12.22 08:00:34] TCP Error: network - Network unreachable
+[2018.12.22 08:00:34] TCP Error: network - Network unreachable
+[2018.12.22 08:00:34] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:34] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:35] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:35] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:35] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:38] TCP Error: network - Network unreachable
+[2018.12.22 08:00:38] TCP Error: network - Network unreachable
+[2018.12.22 08:00:38] TCP Error: network - Network unreachable
+[2018.12.22 08:00:38] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:38] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:39] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:39] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] TCP Error: network - Network unreachable
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:39] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:40] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:40] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:40] TCP Error: network - Network unreachable
+[2018.12.22 08:00:40] TCP Error: network - Network unreachable
+[2018.12.22 08:00:40] TCP Error: network - Network unreachable
+[2018.12.22 08:00:40] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:40] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:41] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:41] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:41] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:42] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:42] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:42] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:42] TCP Error: network - Network unreachable
+[2018.12.22 08:00:42] TCP Error: network - Network unreachable
+[2018.12.22 08:00:42] TCP Error: network - Network unreachable
+[2018.12.22 08:00:42] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:42] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:43] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:43] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:43] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:46] TCP Error: network - Network unreachable
+[2018.12.22 08:00:46] TCP Error: network - Network unreachable
+[2018.12.22 08:00:46] TCP Error: network - Network unreachable
+[2018.12.22 08:00:46] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:46] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:47] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] TCP Error: network - Network unreachable
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:47] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:48] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:48] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:48] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:48] TCP Error: network - Network unreachable
+[2018.12.22 08:00:48] TCP Error: network - Network unreachable
+[2018.12.22 08:00:48] TCP Error: network - Network unreachable
+[2018.12.22 08:00:48] TCP Error: network - Network unreachable
+[2018.12.22 08:00:48] TCP Error: network - Network unreachable
+[2018.12.22 08:00:48] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:48] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:49] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:49] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:49] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:50] TCP Error: network - Network unreachable
+[2018.12.22 08:00:50] TCP Error: network - Network unreachable
+[2018.12.22 08:00:50] TCP Error: network - Network unreachable
+[2018.12.22 08:00:50] TCP Error: network - Network unreachable
+[2018.12.22 08:00:50] TCP Error: network - Network unreachable
+[2018.12.22 08:00:50] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:50] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:50] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:50] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:51] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:51] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:51] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:54] TCP Error: network - Network unreachable
+[2018.12.22 08:00:54] TCP Error: network - Network unreachable
+[2018.12.22 08:00:54] TCP Error: network - Network unreachable
+[2018.12.22 08:00:54] TCP Error: network - Network unreachable
+[2018.12.22 08:00:54] TCP Error: network - Network unreachable
+[2018.12.22 08:00:54] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:54] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:55] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:55] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] TCP Error: network - Network unreachable
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:55] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:56] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:56] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:56] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:56] TCP Error: network - Network unreachable
+[2018.12.22 08:00:56] TCP Error: network - Network unreachable
+[2018.12.22 08:00:56] TCP Error: network - Network unreachable
+[2018.12.22 08:00:56] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:56] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:57] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:57] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:57] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:58] TCP Error: network - Network unreachable
+[2018.12.22 08:00:58] TCP Error: network - Network unreachable
+[2018.12.22 08:00:58] TCP Error: network - Network unreachable
+[2018.12.22 08:00:58] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:58] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:00:58] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:58] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:00:58] Config Error: Bad data size 0 required 344
+[2018.12.22 08:00:59] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:00:59] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:02] TCP Error: network - Network unreachable
+[2018.12.22 08:01:02] TCP Error: network - Network unreachable
+[2018.12.22 08:01:02] TCP Error: network - Network unreachable
+[2018.12.22 08:01:02] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:02] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:03] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] TCP Error: network - Network unreachable
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:03] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:04] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:04] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:04] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:04] TCP Error: network - Network unreachable
+[2018.12.22 08:01:04] TCP Error: network - Network unreachable
+[2018.12.22 08:01:04] TCP Error: network - Network unreachable
+[2018.12.22 08:01:04] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:04] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:05] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:05] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:06] TCP Error: network - Network unreachable
+[2018.12.22 08:01:06] TCP Error: network - Network unreachable
+[2018.12.22 08:01:06] TCP Error: network - Network unreachable
+[2018.12.22 08:01:06] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:06] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:06] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:06] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:06] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:07] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:07] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:07] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:10] TCP Error: network - Network unreachable
+[2018.12.22 08:01:10] TCP Error: network - Network unreachable
+[2018.12.22 08:01:10] TCP Error: network - Network unreachable
+[2018.12.22 08:01:10] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:10] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:11] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:11] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] TCP Error: network - Network unreachable
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:11] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:12] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:12] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:12] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:12] TCP Error: network - Network unreachable
+[2018.12.22 08:01:12] TCP Error: network - Network unreachable
+[2018.12.22 08:01:12] TCP Error: network - Network unreachable
+[2018.12.22 08:01:12] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:12] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:13] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:13] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:13] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:14] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:14] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:14] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:14] TCP Error: network - Network unreachable
+[2018.12.22 08:01:14] TCP Error: network - Network unreachable
+[2018.12.22 08:01:14] TCP Error: network - Network unreachable
+[2018.12.22 08:01:14] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:14] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:15] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:15] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:18] TCP Error: network - Network unreachable
+[2018.12.22 08:01:18] TCP Error: network - Network unreachable
+[2018.12.22 08:01:18] TCP Error: network - Network unreachable
+[2018.12.22 08:01:18] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:18] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:19] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] TCP Error: network - Network unreachable
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:19] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:20] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:20] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:20] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:20] TCP Error: network - Network unreachable
+[2018.12.22 08:01:20] TCP Error: network - Network unreachable
+[2018.12.22 08:01:20] TCP Error: network - Network unreachable
+[2018.12.22 08:01:20] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:20] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:21] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:21] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:21] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:22] TCP Error: network - Network unreachable
+[2018.12.22 08:01:22] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:22] TCP Error: network - Network unreachable
+[2018.12.22 08:01:22] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:22] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:22] TCP Error: network - Network unreachable
+[2018.12.22 08:01:22] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:22] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:23] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:23] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:23] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:26] TCP Error: network - Network unreachable
+[2018.12.22 08:01:26] TCP Error: network - Network unreachable
+[2018.12.22 08:01:26] TCP Error: network - Network unreachable
+[2018.12.22 08:01:26] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:26] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:27] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:27] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] TCP Error: network - Network unreachable
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:27] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:28] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:28] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:28] TCP Error: network - Network unreachable
+[2018.12.22 08:01:28] TCP Error: network - Network unreachable
+[2018.12.22 08:01:28] TCP Error: network - Network unreachable
+[2018.12.22 08:01:28] TCP Error: network - Network unreachable
+[2018.12.22 08:01:28] TCP Error: network - Network unreachable
+[2018.12.22 08:01:28] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:28] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:29] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:29] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:29] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:30] TCP Error: network - Network unreachable
+[2018.12.22 08:01:30] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:30] TCP Error: network - Network unreachable
+[2018.12.22 08:01:30] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:30] TCP Error: network - Network unreachable
+[2018.12.22 08:01:30] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:30] TCP Error: network - Network unreachable
+[2018.12.22 08:01:30] TCP Error: network - Network unreachable
+[2018.12.22 08:01:30] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:30] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:31] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:31] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:31] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:34] TCP Error: network - Network unreachable
+[2018.12.22 08:01:34] TCP Error: network - Network unreachable
+[2018.12.22 08:01:34] TCP Error: network - Network unreachable
+[2018.12.22 08:01:34] TCP Error: network - Network unreachable
+[2018.12.22 08:01:34] TCP Error: network - Network unreachable
+[2018.12.22 08:01:34] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:34] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:35] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:35] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] TCP Error: network - Network unreachable
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:35] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:36] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:36] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:36] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:36] TCP Error: network - Network unreachable
+[2018.12.22 08:01:36] TCP Error: network - Network unreachable
+[2018.12.22 08:01:36] TCP Error: network - Network unreachable
+[2018.12.22 08:01:36] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:36] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:37] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:37] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:37] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:38] TCP Error: network - Network unreachable
+[2018.12.22 08:01:38] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:38] TCP Error: network - Network unreachable
+[2018.12.22 08:01:38] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:38] TCP Error: network - Network unreachable
+[2018.12.22 08:01:38] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:38] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:39] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:39] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:39] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:42] TCP Error: network - Network unreachable
+[2018.12.22 08:01:42] TCP Error: network - Network unreachable
+[2018.12.22 08:01:42] TCP Error: network - Network unreachable
+[2018.12.22 08:01:42] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:42] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:43] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] TCP Error: network - Network unreachable
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:43] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:44] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:44] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:44] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:44] TCP Error: network - Network unreachable
+[2018.12.22 08:01:44] TCP Error: network - Network unreachable
+[2018.12.22 08:01:44] TCP Error: network - Network unreachable
+[2018.12.22 08:01:44] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:44] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:45] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:45] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:46] TCP Error: network - Network unreachable
+[2018.12.22 08:01:46] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:46] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:46] TCP Error: network - Network unreachable
+[2018.12.22 08:01:46] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:46] TCP Error: network - Network unreachable
+[2018.12.22 08:01:46] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:46] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:47] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:47] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:47] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:50] TCP Error: network - Network unreachable
+[2018.12.22 08:01:50] TCP Error: network - Network unreachable
+[2018.12.22 08:01:50] TCP Error: network - Network unreachable
+[2018.12.22 08:01:50] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:50] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:51] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] TCP Error: network - Network unreachable
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:51] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:52] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:52] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:52] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:52] TCP Error: network - Network unreachable
+[2018.12.22 08:01:52] TCP Error: network - Network unreachable
+[2018.12.22 08:01:52] TCP Error: network - Network unreachable
+[2018.12.22 08:01:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:52] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:53] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:53] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:53] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:54] TCP Error: network - Network unreachable
+[2018.12.22 08:01:54] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:54] TCP Error: network - Network unreachable
+[2018.12.22 08:01:54] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:54] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:54] TCP Error: network - Network unreachable
+[2018.12.22 08:01:54] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:54] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:55] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:55] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:55] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:58] TCP Error: network - Network unreachable
+[2018.12.22 08:01:58] TCP Error: network - Network unreachable
+[2018.12.22 08:01:58] TCP Error: network - Network unreachable
+[2018.12.22 08:01:58] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:58] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:01:59] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:01:59] Config Error: Bad data size 0 required 344
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] TCP Error: network - Network unreachable
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:01:59] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:02:00] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:02:00] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:02:00] Config Error: Bad data size 0 required 344
+[2018.12.22 08:02:00] TCP Error: network - Network unreachable
+[2018.12.22 08:02:00] TCP Error: network - Network unreachable
+[2018.12.22 08:02:00] TCP Error: network - Network unreachable
+[2018.12.22 08:02:00] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:02:00] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:02:01] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:02:01] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:02:01] Config Error: Bad data size 0 required 344
+[2018.12.22 08:02:02] TCP Error: network - Network unreachable
+[2018.12.22 08:02:02] TCP Error: network - Network unreachable
+[2018.12.22 08:02:02] TCP Error: network - Network unreachable
+[2018.12.22 08:02:02] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:02:02] HTTP Error: network error 99 - Network access is disabled.
+[2018.12.22 08:02:02] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:02:02] Config Error: Bad data size 0 required 344
+[2018.12.22 08:02:03] Config Error: Failed to get response, error: Network access is disabled. (99)
+[2018.12.22 08:02:03] Config Error: Failed to parse dns response JSON, error: illegal value
+[2018.12.22 08:02:03] Config Error: Bad data size 0 required 344
+[2018.12.22 08:02:06] TCP Error: network - Network unreachable
+[2018.12.22 08:02:06] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:07] TCP Error: network - Network unreachable
+[2018.12.22 08:02:07] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:07] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:02:07] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:02:08] Message Info: bad message notification received (error_code 16) for msg_id = 6637456601858209308, seq_no = 3
+[2018.12.22 08:02:08] TCP Error: network - Network unreachable
+[2018.12.22 08:02:08] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:08] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:02:08] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:02:09] TCP Error: network - Network unreachable
+[2018.12.22 08:02:09] TCP Error: network - Network unreachable
+[2018.12.22 08:02:09] TCP Error: network - Network unreachable
+[2018.12.22 08:02:09] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:09] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:09] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:09] TCP Error: network - Network unreachable
+[2018.12.22 08:02:09] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:09] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:02:09] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:02:09] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:02:09] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:02:53] Could not send ping for some seconds, restarting...
+[2018.12.22 08:02:53] TCP Error: network - Network unreachable
+[2018.12.22 08:02:53] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:02:53] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:02:53] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:07:10] Message Info: bad message notification received (error_code 16) for msg_id = 6637724792822099056, seq_no = 1016
+[2018.12.22 08:11:22] TCP Error: network - Network unreachable
+[2018.12.22 08:11:22] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:11:22] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:11:22] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:12:53] Message Info: bad message notification received (error_code 16) for msg_id = 6637726086167818044, seq_no = 1027
+[2018.12.22 08:13:07] TCP Error: network - Network unreachable
+[2018.12.22 08:13:07] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:13:07] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:13:07] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:18:37] Message Info: bad message notification received (error_code 16) for msg_id = 6637727562915286048, seq_no = 1047
+[2018.12.22 08:18:52] TCP Error: network - Network unreachable
+[2018.12.22 08:18:52] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:18:52] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:39:55] TCP Error: network - Network unreachable
+[2018.12.22 08:39:55] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:39:55] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:39:55] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:39:55] Message Info: bad message notification received (error_code 16) for msg_id = 6637729043934365460, seq_no = 1059
+[2018.12.22 08:45:05] Message Info: bad message notification received (error_code 16) for msg_id = 6637734532815818744, seq_no = 1081
+[2018.12.22 08:45:20] TCP Error: network - Network unreachable
+[2018.12.22 08:45:20] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:45:20] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:45:20] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:50:30] Message Info: bad message notification received (error_code 16) for msg_id = 6637735865112808724, seq_no = 1101
+[2018.12.22 08:50:45] TCP Error: network - Network unreachable
+[2018.12.22 08:50:45] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:50:45] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:50:45] HTTP Error: connection refused - Connection refused
+[2018.12.22 08:56:00] Message Info: bad message notification received (error_code 16) for msg_id = 6637737258985352076, seq_no = 1119
+[2018.12.22 08:56:15] TCP Error: network - Network unreachable
+[2018.12.22 08:56:15] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 08:56:15] TCP Error: socket connection refused - Connection refused
+[2018.12.22 08:56:15] HTTP Error: connection refused - Connection refused
+[2018.12.22 09:01:15] Message Info: bad message notification received (error_code 16) for msg_id = 6637738676134705200, seq_no = 1137
+[2018.12.22 09:01:30] TCP Error: network - Network unreachable
+[2018.12.22 09:01:30] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:01:30] TCP Error: socket connection refused - Connection refused
+[2018.12.22 09:01:30] HTTP Error: connection refused - Connection refused
+[2018.12.22 09:06:20] Message Info: bad message notification received (error_code 16) for msg_id = 6637740030790895144, seq_no = 1155
+[2018.12.22 09:12:01] Message Info: bad message notification received (error_code 16) for msg_id = 6637741338773968640, seq_no = 1175
+[2018.12.22 09:12:16] TCP Error: network - Network unreachable
+[2018.12.22 09:12:16] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:12:16] TCP Error: socket connection refused - Connection refused
+[2018.12.22 09:17:11] Message Info: bad message notification received (error_code 16) for msg_id = 6637742802954823480, seq_no = 1195
+[2018.12.22 09:17:26] TCP Error: network - Network unreachable
+[2018.12.22 09:17:26] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:17:27] TCP Error: network - Network unreachable
+[2018.12.22 09:17:27] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:22:36] Message Info: bad message notification received (error_code 16) for msg_id = 6637744136934303116, seq_no = 1216
+[2018.12.22 09:22:40] TCP Error: network - Network unreachable
+[2018.12.22 09:22:40] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:22:41] TCP Error: network - Network unreachable
+[2018.12.22 09:22:41] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:22:43] TCP Error: network - Network unreachable
+[2018.12.22 09:22:43] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:22:47] TCP Error: network - Network unreachable
+[2018.12.22 09:22:47] HTTP Error: network error 99 - Network unreachable
+[2018.12.22 09:22:51] HTTP Error: connection refused - Connection refused

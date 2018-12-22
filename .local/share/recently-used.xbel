@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/alex/Images/wallp.jpg" added="2018-12-02T19:55:28Z" modified="2018-12-02T19:55:29Z" visited="2018-12-02T19:55:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2018-12-02T19:55:29Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/Programs/polybar/lib/xpp/generators/cpp_client.py" added="2018-12-02T20:32:25Z" modified="2018-12-02T20:32:54Z" visited="2018-12-02T20:32:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;code-oss --unity-launch %F&apos;" modified="2018-12-02T20:32:54Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/.zshrc" added="2018-12-03T22:46:55Z" modified="2018-12-03T22:46:55Z" visited="2018-12-03T22:46:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2018-12-03T22:46:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/.config/polybar/config" added="2018-12-04T09:34:45Z" modified="2018-12-10T12:23:26Z" visited="2018-12-04T09:34:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2018-12-04T09:34:45Z" count="1"/>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-10T12:23:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/Python/BDMLCW" added="2018-12-05T15:54:40Z" modified="2018-12-07T20:34:11Z" visited="2018-12-05T15:54:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2018-12-07T20:34:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/test.tex" added="2018-12-08T13:48:10Z" modified="2018-12-08T13:48:10Z" visited="2018-12-08T13:48:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tex"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2018-12-08T13:48:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/Python/BDMLCW/test.pdf" added="2018-12-08T20:50:44Z" modified="2018-12-08T21:51:07Z" visited="2018-12-08T20:50:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-12-08T21:51:07Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/test.pdf" added="2018-12-08T21:03:43Z" modified="2018-12-08T21:03:43Z" visited="2018-12-08T21:03:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-12-08T21:03:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/Other/BDMLCW.zip" added="2018-12-09T19:00:01Z" modified="2018-12-09T19:00:01Z" visited="2018-12-09T19:00:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2018-12-09T19:00:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/.i3/config" added="2018-12-10T12:19:59Z" modified="2018-12-10T12:19:59Z" visited="2018-12-10T12:19:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-10T12:19:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/Downloads/Telegram%20Desktop/photo_2018-12-12_16-11-47.jpg" added="2018-12-12T16:12:51Z" modified="2018-12-12T16:12:51Z" visited="2018-12-12T16:12:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2018-12-12T16:12:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/Python/BDML_Lab4" added="2018-12-12T16:19:36Z" modified="2018-12-12T16:19:36Z" visited="2018-12-12T16:19:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-12T16:19:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/Python/BDML_Lab4/solution.py" added="2018-12-13T14:43:02Z" modified="2018-12-13T14:43:02Z" visited="2018-12-13T14:43:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2018-12-13T14:43:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/LaTeX/GregynogPrep" added="2018-12-20T14:22:55Z" modified="2018-12-20T14:22:55Z" visited="2018-12-20T14:22:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-20T14:22:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/cpp/RayEngine" added="2018-12-20T15:23:20Z" modified="2018-12-20T15:23:20Z" visited="2018-12-20T15:23:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-20T15:23:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alex/dev/dotNet/WebAppCW" added="2018-12-20T16:01:14Z" modified="2018-12-22T08:07:30Z" visited="2018-12-20T16:01:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron2" exec="&apos;electron2 %u&apos;" modified="2018-12-22T08:07:30Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

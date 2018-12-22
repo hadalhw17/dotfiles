@@ -1,0 +1,279 @@
+<style>
+
+    .form {
+        font-size: 0;
+        padding: 0 0px;
+    }
+
+    .group {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+        vertical-align: top;
+        padding: 4px; margin-bottom: 10px;
+    }
+
+    .form input[type="text"], .select-wrapper, .form input[type="number"] {
+        height: 40px;
+    }
+
+    .form input[type="text"], .form textarea, .select-wrapper, .form input[type="number"] {
+        width: 100%;
+        border-radius: 4px;
+        border: 2px solid rgb(221, 221, 221);
+        padding: 6px;
+        font-weight: 400;
+        box-sizing: border-box;
+        font-size: 18px;
+        color: #445;
+        background: #FFFFFF;
+        -webkit-appearance: none;
+        display: block;
+        position: relative;
+    }
+
+    body .form .select-wrapper select {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        width: 100%;
+        box-sizing: border-box;
+
+        color: inherit;
+        font: 400 18px 'Open Sans';
+        padding: 6px;
+    }
+
+    .form .select-wrapper i {
+        display: block;
+        height: 100%;
+        line-height: 36px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 32px;
+        color: #AAA;
+        pointer-events: none;
+    }
+
+    .form .select-wrapper select:focus, .form input[type="text"]:focus, .form textarea:focus, .select-wrapper {
+        background-color: #FFFFFF;
+        border-color: rgb(221, 221, 221);
+    }
+
+
+    /* FORM ERRORS */
+    .error input[type="text"], .error textarea, .error .select-wrapper {
+        background-color: #FFF9F9 !important;
+        border-color: #D66 !important;
+    }
+
+    .error label {
+        color: #C33;
+    }
+
+    .error .select-wrapper i {
+        color: #D66;
+    }
+
+    .error #message-characters-left {
+        color: #D66;
+    }
+
+    .error-message {
+        font-size: 11px;
+        color: #D66;
+        padding: 2px;
+    }
+
+    textarea {
+        resize: none;
+        height: 140px;
+    }
+
+    ::-webkit-input-placeholder { color: #BBB; }
+    :-moz-placeholder { color: #BBB; }
+    ::-moz-placeholder { color: #BBB; }
+    :-ms-input-placeholder { color: #BBB; }
+
+    input[type="text"][disabled], select[disabled], textarea[disabled] {
+        background: #EEE;
+        cursor: default;
+    }
+
+
+
+    .color-picker-wrapper {
+        position: relative;
+    }
+
+    .color-picker-wrapper input[type="text"] {
+        padding-right: 44px;
+    }
+
+    .color-picker-wrapper div {
+        border: 2px solid #ccc;
+        border-radius: 0 4px 4px 0;
+        box-sizing: border-box;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40px;
+        z-index: 1;
+    }
+
+
+    .audio-picker-wrapper {
+        position: relative;
+    }
+
+    .audio-picker-wrapper input[type="text"] {
+        padding-right: 66px;
+    }
+
+    .audio-picker-wrapper div {
+        position: absolute; right: 0px; top: 0px; height: 40px; line-height: 40px; padding: 0px 5px;
+    }
+
+    .audio-picker-wrapper a {
+        color: #AAA;
+    }
+
+    .audio-picker-wrapper i {
+        font-size: 18px; text-align: center; line-height: 40px; width: 28px;
+    }
+
+    label {
+        display: block;
+        font-size: 11px;
+        height: 16px;
+        font-weight: 700;
+        color: rgb(187, 187, 187);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 16px;
+    }
+
+    /*
+    .tabs {
+        text-align: center; margin: 0 60px;
+        font-size: 0;
+    }
+
+    .tabs a {
+        color: rgb(85, 85, 85);
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px;
+        text-decoration: none;
+        transform: translateY(0px);
+        width: 50%;
+        z-index: 1;
+        box-sizing: border-box;
+
+    }
+    .tabs a.active {
+        background: none repeat scroll 0 0 rgb(240, 240, 240);
+        border-left: 1px solid rgb(221, 221, 221);
+        border-right: 1px solid rgb(221, 221, 221);
+        border-top: 1px solid rgb(221, 221, 221);
+        color: rgb(34, 34, 34);
+        transform: translateY(1px);
+        -webkit-transform: translateY(1px);
+        z-index: 100000;
+        position: relative;
+    }*/
+
+    .tabs-container {
+        margin: 0px 40px 20px; padding: 20px; font-size: 0; background: none repeat scroll 0 0 rgb(240, 240, 240); border: 1px solid #ddd;
+    }
+
+    .animation-preview-text {
+        background: none repeat scroll 0 0 transparent;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: #666;
+        display: block;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        height: 40px;
+        padding: 6px;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .fieldset {
+        padding: 10px; background: #F8F8F9; margin-bottom: 20px;
+    }
+
+    .pagination-button.large {
+        margin: 0;
+    }
+
+    .pagination-button.large span {
+        font-size: 16px;
+        height: 38px;
+        line-height: 38px;
+        padding: 0 16px;
+    }
+
+
+    .tabs1 {
+        margin-bottom: 10px;
+    }
+
+    .tabs1 a i {
+        display: none;
+        margin-right: 4px;
+    }
+
+    .tabs1 a {
+        display: inline-block;
+        text-decoration: none;
+        line-height: 42px;
+        padding: 0 10px;
+        background: #FFFFFF;
+        font-weight: 600;
+        font-size: 14px;
+        border-bottom: 3px solid #F2F2F2;
+        color: #555555;
+    }
+
+    .tabs1 a:hover {
+        border-color: #999;
+        color: #333;
+    }
+
+    .tabs1 a.active {
+        border-color: #2daf91;
+        color: #2daf91;
+        cursor: default;
+    }
+
+    .tabs1 a.error {
+        color: #E88 !important;
+        border-color: #E88 !important;
+    }
+
+    .tabs1 a.error i {
+        display: inline-block;
+    }
+
+    .tabs1 a.active.error {
+        color: #C33 !important;
+        border-color: #C33 !important;
+    }
+
+</style>

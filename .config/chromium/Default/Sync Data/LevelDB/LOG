@@ -1,0 +1,6 @@
+2018/12/22-08:02:55.907 5925 Reusing MANIFEST /home/alex/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2018/12/22-08:02:55.907 5925 Recovering log #27
+2018/12/22-08:02:56.248 5925 Reusing old log /home/alex/.config/chromium/Default/Sync Data/LevelDB/000027.log 
+2018/12/22-08:16:59.497 5c8a Level-0 table #32: started
+2018/12/22-08:16:59.582 5c8a Level-0 table #32: 92848 bytes OK
+2018/12/22-08:16:59.684 5c8a Delete type=0 #27

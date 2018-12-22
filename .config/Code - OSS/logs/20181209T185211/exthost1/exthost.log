@@ -1,0 +1,14 @@
+[2018-12-09 18:52:13.733] [exthost] [info] extension host started
+[2018-12-09 18:52:13.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-09 18:52:13.757] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2018-12-09 18:52:13.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-09 18:52:13.762] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2018-12-09 18:52:13.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-09 18:52:13.780] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2018-12-09 18:52:13.905] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-09 18:52:13.905] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2018-12-09 18:52:13.916] [exthost] [info] eager extensions activated
+[2018-12-09 18:52:13.919] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2018-12-09 18:52:13.919] [exthost] [info] ExtensionService#loadCommonJSModule /home/alex/.vscode-oss/extensions/james-yu.latex-workshop-5.17.3/out/src/main.js
+[2018-12-09 18:57:48.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-12-09 18:57:48.778] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/python/out/pythonMain

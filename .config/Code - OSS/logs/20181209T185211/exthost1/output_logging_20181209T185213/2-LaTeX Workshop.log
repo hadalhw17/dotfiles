@@ -1,0 +1,25 @@
+[18:52:14] Initializing LaTeX Workshop.
+[18:52:14] Creating LaTeX Workshop http and websocket server.
+[18:52:14] LaTeX Workshop initialized.
+[18:52:14] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[18:52:14] Root file changed from: undefined. Find all dependencies.
+[18:52:14] Instatiating new file watcher for /home/alex/dev/Python/BDMLCW/test.tex
+[18:52:14] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[18:52:14] Server created on 127.0.0.1:43439
+[18:52:14] Snippet data loaded.
+[18:52:14] LaTeX Workshop version: 5.17.3
+[18:53:07] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:07] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:07] Auto-build /home/alex/dev/Python/BDMLCW/test.tex upon save.
+[18:53:07] BUILD command invoked.
+[18:53:07] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:07] Root file remains unchanged from: /home/alex/dev/Python/BDMLCW/test.tex.
+[18:53:07] Building root file: /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:07] Build root file /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:07] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,/home/alex/dev/Python/BDMLCW/test
+[18:53:08] LaTeX log parsed with 20 messages.
+[18:53:08] Recipe of length 1 finished.
+[18:53:08] Successfully built /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:08] No PDF viewer connected for /home/alex/dev/Python/BDMLCW/test.pdf
+[18:53:12] File watcher: responding to change in /home/alex/dev/Python/BDMLCW/test.tex
+[18:53:12] Parsing /home/alex/dev/Python/BDMLCW/test.tex

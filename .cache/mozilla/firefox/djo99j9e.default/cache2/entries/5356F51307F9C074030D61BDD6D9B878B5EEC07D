@@ -1,0 +1,321 @@
+/**
+ * @constructor
+ */
+var FileUploadDialog = function () {
+    ModalDialog.call(this);
+    this._className = 'file-upload-dialog';
+    this._post_upload_handler = undefined;
+    this._fileType = 'image';
+    this._headerEnabled = false;
+};
+inherits(FileUploadDialog, ModalDialog);
+
+/**
+ * allowed values: 'image', 'attachment'
+ */
+FileUploadDialog.prototype.setFileType = function (fileType) {
+    this._fileType = fileType;
+};
+
+FileUploadDialog.prototype.getFileType = function () {
+    return this._fileType;
+};
+
+FileUploadDialog.prototype.setButtonText = function (text) {
+    this._fakeInput.val(text);
+};
+
+FileUploadDialog.prototype.setPostUploadHandler = function (handler) {
+    this._post_upload_handler = handler;
+};
+
+FileUploadDialog.prototype.runPostUploadHandler = function (url, descr) {
+    this._post_upload_handler(url, descr);
+};
+
+FileUploadDialog.prototype.setInputId = function (id) {
+    this._input_id = id;
+};
+
+FileUploadDialog.prototype.getInputId = function () {
+    return this._input_id;
+};
+
+FileUploadDialog.prototype.setErrorText = function (text) {
+    this.setLabelText(text);
+    this._label.addClass('error');
+};
+
+FileUploadDialog.prototype.setLabelText = function (text) {
+    this._label.html(text);
+    this._label.removeClass('error');
+};
+
+FileUploadDialog.prototype.setUrlInputTooltip = function (text) {
+    this._url_input_tooltip = text;
+};
+
+FileUploadDialog.prototype.getUrl = function () {
+    var url_input = this._url_input;
+    if (url_input.isBlank() === false) {
+        return url_input.getVal();
+    }
+    return '';
+};
+
+//disable description for now
+//FileUploadDialog.prototype.getDescription = function () {
+//    return this._description_input.getVal();
+//};
+
+FileUploadDialog.prototype.resetInputs = function () {
+    this._url_input.reset();
+    //this._description_input.reset();
+    this._upload_input.val('');
+};
+
+FileUploadDialog.prototype.getInputElement = function () {
+    return $('#' + this.getInputId());
+};
+
+FileUploadDialog.prototype.installFileUploadHandler = function (handler) {
+    var upload_input = this.getInputElement();
+    upload_input.unbind('change');
+    //todo: fix this - make event handler reinstall work
+    upload_input.change(handler);
+};
+
+FileUploadDialog.prototype.show = function () {
+    //hack around the ajaxFileUpload plugin
+    FileUploadDialog.superClass_.show.call(this);
+    var handler = this.getStartUploadHandler();
+    this.installFileUploadHandler(handler);
+};
+
+FileUploadDialog.prototype.getUrlInputElement = function () {
+    return this._url_input.getElement();
+};
+
+/*
+ * argument startUploadHandler is very special it must
+ * be a function calling this one!!! Todo: see if there
+ * is a more civilized way to do this.
+ */
+FileUploadDialog.prototype.startFileUpload = function (startUploadHandler) {
+
+    var spinner = this._spinner;
+    var label = this._label;
+
+    spinner.ajaxStart(function () {
+        spinner.show();
+        label.hide();
+    });
+    spinner.ajaxComplete(function () {
+        spinner.hide();
+        label.show();
+    });
+
+    /* important!!! upload input must be loaded by id
+     * because ajaxFileUpload monkey-patches the upload form */
+    var uploadInput = this.getInputElement();
+    uploadInput.ajaxStart(function () { uploadInput.hide(); });
+    uploadInput.ajaxComplete(function () { uploadInput.show(); });
+
+    //var localFilePath = upload_input.val();
+
+    var me = this;
+
+    $.ajaxFileUpload({
+        url: askbot.urls.upload,
+        secureuri: false,//todo: check on https
+        fileElementId: this.getInputId(),
+        dataType: 'xml',
+        success: function (data, status) {
+
+            var fileURL = $(data).find('file_url').text();
+            var origFileName = $(data).find('orig_file_name').text();
+            var newStatus = interpolate(
+                                gettext('Uploaded file: %s'),
+                                [origFileName]
+                            );
+            /*
+            * hopefully a fix for the "fakepath" issue
+            * https://www.mediawiki.org/wiki/Special:Code/MediaWiki/83225
+            */
+            fileURL = fileURL.replace(/\w:.*\\(.*)$/, '$1');
+            var error = $(data).find('error').text();
+            if (error !== '') {
+                me.setErrorText(error);
+            } else {
+                me.getUrlInputElement().attr('value', fileURL);
+                me.setLabelText(newStatus);
+                var buttonText = gettext('Choose a different file');
+                if (me.getFileType() === 'image') {
+                    buttonText = gettext('Choose a different image');
+                }
+                me.setButtonText(buttonText);
+            }
+
+            /* re-install this as the upload extension
+             * will remove the handler to prevent double uploading
+             * this hack is a manipulation around the
+             * ajaxFileUpload jQuery plugin. */
+            me.installFileUploadHandler(startUploadHandler);
+        },
+        error: function (data, status, e) {
+            /* re-install this as the upload extension
+            * will remove the handler to prevent double uploading */
+            me.setErrorText(gettext('Oops, looks like we had an error. Sorry.'));
+            me.installFileUploadHandler(startUploadHandler);
+        }
+    });
+    return false;
+};
+
+FileUploadDialog.prototype.getStartUploadHandler = function () {
+    var me = this;
+    var handler = function () {
+        /* the trick is that we need inside the function call
+         * to have a reference to itself
+         * in order to reinstall the handler later
+         * because ajaxFileUpload jquery extension might be destroying it */
+        return me.startFileUpload(handler);
+    };
+    return handler;
+};
+
+FileUploadDialog.prototype.createDom = function () {
+
+    var superClass = FileUploadDialog.superClass_;
+
+    var me = this;
+    superClass.setAcceptHandler.call(this, function () {
+        var url = $.trim(me.getUrl());
+        //var description = me.getDescription();
+        //@todo: have url cleaning code here
+        if (url.length > 0) {
+            me.runPostUploadHandler(url);//, description);
+            me.resetInputs();
+        }
+        me.hide();
+    });
+    superClass.setRejectHandler.call(this, function () {
+        me.resetInputs();
+        me.hide();
+    });
+    superClass.createDom.call(this);
+
+    var form = this.makeElement('form');
+    form.addClass('ajax-file-upload');
+    form.css('margin-bottom', 0);
+    this.prependContent(form);
+
+    // Browser native file upload field
+    var upload_input = this.makeElement('input');
+    upload_input.attr({
+        id: this._input_id,
+        type: 'file',
+        name: 'file-upload'
+        //size: 26???
+    });
+    form.append(upload_input);
+    this._upload_input = upload_input;
+
+    var fakeInput = this.makeElement('input');
+    fakeInput.attr('type', 'button');
+    fakeInput.addClass('submit');
+    fakeInput.addClass('fake-file-input');
+    var buttonText = gettext('Choose a file to insert');
+    if (this._fileType === 'image') {
+        buttonText = gettext('Choose an image to insert');
+    }
+    fakeInput.val(buttonText);
+    this._fakeInput = fakeInput;
+    form.append(fakeInput);
+
+    setupButtonEventHandlers(fakeInput, function () { upload_input.click(); });
+
+    // Label which will also serve as status display
+    var label = this.makeElement('label');
+    label.attr('for', this._input_id);
+    var types = askbot.settings.allowedUploadFileTypes;
+    types = types.join(', ');
+    label.html(gettext('Allowed file types are:') + ' ' + types + '.');
+    form.append(label);
+    this._label = label;
+
+    // The url input text box, probably unused in fact
+    var url_input = new TippedInput();
+    url_input.setInstruction(this._url_input_tooltip || gettext('Or paste file url here'));
+    var url_input_element = url_input.getElement();
+    url_input_element.css({
+        'width': '200px',
+        'display': 'none'
+    });
+    form.append(url_input_element);
+    //form.append($('<br/>'));
+    this._url_input = url_input;
+
+    /* //Description input box
+    var descr_input = new TippedInput();
+    descr_input.setInstruction(gettext('Describe the image here'));
+    this.makeElement('input');
+    form.append(descr_input.getElement());
+    form.append($('<br/>'));
+    this._description_input = descr_input;
+    */
+    var spinner = this.makeElement('img');
+    spinner.attr('src', mediaUrl('media/images/ajax-loader.gif'));
+    spinner.css('display', 'none');
+    spinner.addClass('spinner');
+    form.append(spinner);
+    this._spinner = spinner;
+
+    upload_input.change(this.getStartUploadHandler());
+};
+Ì ¸IÑ‚           \]³?ÈX\^b   J    :https://faq.i3wm.org/m/default/media/js/utils/file_upload_dialog.js%3Fv=2 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAgAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAqUMIIKkDCCCjegAwIBAgIRAL0TUap1l79ZWRNPAPFyOOgwCgYIKoZIzj0EAwIwgZIxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTgwNgYDVQQDEy9DT01PRE8gRUNDIERvbWFpbiBWYWxpZGF0aW9uIFNlY3VyZSBTZXJ2ZXIgQ0EgMjAeFw0xODEyMDIwMDAwMDBaFw0xOTA2MTAyMzU5NTlaMGsxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRlZDEhMB8GA1UECxMYUG9zaXRpdmVTU0wgTXVsdGktRG9tYWluMSMwIQYDVQQDExpzbmkzNzUzOS5jbG91ZGZsYXJlc3NsLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPOfzxFoo6I9VMFfHXNqZWi1NkPeI4eVyci+5/OrYTl1Rya3+iOy4p9H9YMan8UE15byEPFIwMsfAk3AAuCwt0ajggiSMIIIjjAfBgNVHSMEGDAWgBRACWFn8LyDcU/eEggsb9TUK3Y9ljAdBgNVHQ4EFgQUDEgpPDDbFsmoOCZ+gt/2tvX1+/0wDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCME8GA1UdIARIMEYwOgYLKwYBBAGyMQECAgcwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2RvLmNvbS9DUFMwCAYGZ4EMAQIBMFYGA1UdHwRPME0wS6BJoEeGRWh0dHA6Ly9jcmwuY29tb2RvY2E0LmNvbS9DT01PRE9FQ0NEb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EyLmNybDCBiAYIKwYBBQUHAQEEfDB6MFEGCCsGAQUFBzAChkVodHRwOi8vY3J0LmNvbW9kb2NhNC5jb20vQ09NT0RPRUNDRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBMi5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLmNvbW9kb2NhNC5jb20wggXPBgNVHREEggXGMIIFwoIac25pMzc1MzkuY2xvdWRmbGFyZXNzbC5jb22CEiouMXBhdHRlcm5ob21lMC5nYYINKi4zbGFuY2Vycy5jb4IPKi41OWRlc2t0b3AyLmdxgg8qLjZkZXNpZ25oZDEuY2aCEiouYWxlcnRvcGluaW9uLmNvbYITKi5heGVjaWJ1emlwYW1lai50a4IgKi5iY2FyZC1zZWN1cmUtbGRlbnR2ZXJmYWhyZW4ucnWCFSouYmxhY2tmcmluZ2Vza2lydC50a4INKi5ib2JvbHRzLmNvbYIRKi5idXlsb3hpdGFuZS5jb22CGSouY29tZXRvZ2V0aGVyYm93bmVzcy5jb22CDSouY3JhY2twYy5uZXSCEyouZGlzY291bnRjYXJwZXQuY2+CDCouZG9jdW1heC5jb4IOKi5mYXRyb3RpdGUuZ3GCDSouZmhzZ3V1LmRhdGWCDCouZmh2aXBzLmNvbYIPKi5mcmVnYXQtc3BiLnJ1ghQqLmhlYXRoY2RhbmdkZW5taS5jZoIKKi5ocnkyNC5za4IKKi5pM3dtLm9yZ4IRKi5pcG9mYXd5bmFoZWYudGuCDiouamN2YWVib29rLm1sghAqLmxkZXJ1bm1vY2FyLmdxghwqLm1hbW11dG1vdW50YWluc2Nob29sLmNvLnVrgg8qLnJvYnVzdGlyYy5uZXSCEyoucm95bGl2aW5nc3Rvbi5jb22CEiouc2VlbGVmbHlyb2RzLmNvbYIXKi5zZWxmYnVpbGRuZXdob21lcy5jb22CESouc3RlbmhpbGwucmV2aWV3gg0qLnN1dGF6ZTI0LnNrgg0qLnRhdHVtYWkuY29tghAqLnRvbWJvYm9sdHMuY29tghAqLnRyYXBtYWdldGVyLmNmgg4qLnRyZW5kaWZ5LmNvbYISKi53YWx5LWtyYXdjenlrLnBsgg4qLndlYWdoLnJldmlld4IbKi53aW5kb3dzbm93LmFsdGVydmlzdGEub3JnggwqLngxMXZpcy5vcmeCECoueHh4dm90ZS5yZXZpZXeCDCouemVranVyLm5ldIIQMXBhdHRlcm5ob21lMC5nYYILM2xhbmNlcnMuY2+CDTU5ZGVza3RvcDIuZ3GCDTZkZXNpZ25oZDEuY2aCEGFsZXJ0b3Bpbmlvbi5jb22CEWF4ZWNpYnV6aXBhbWVqLnRrgh5iY2FyZC1zZWN1cmUtbGRlbnR2ZXJmYWhyZW4ucnWCE2JsYWNrZnJpbmdlc2tpcnQudGuCC2JvYm9sdHMuY29tgg9idXlsb3hpdGFuZS5jb22CF2NvbWV0b2dldGhlcmJvd25lc3MuY29tggtjcmFja3BjLm5ldIIRZGlzY291bnRjYXJwZXQuY2+CCmRvY3VtYXguY2+CDGZhdHJvdGl0ZS5ncYILZmhzZ3V1LmRhdGWCCmZodmlwcy5jb22CDWZyZWdhdC1zcGIucnWCEmhlYXRoY2RhbmdkZW5taS5jZoIIaHJ5MjQuc2uCCGkzd20ub3Jngg9pcG9mYXd5bmFoZWYudGuCDGpjdmFlYm9vay5tbIIObGRlcnVubW9jYXIuZ3GCGm1hbW11dG1vdW50YWluc2Nob29sLmNvLnVrgg1yb2J1c3RpcmMubmV0ghFyb3lsaXZpbmdzdG9uLmNvbYIQc2VlbGVmbHlyb2RzLmNvbYIVc2VsZmJ1aWxkbmV3aG9tZXMuY29tgg9zdGVuaGlsbC5yZXZpZXeCC3N1dGF6ZTI0LnNrggt0YXR1bWFpLmNvbYIOdG9tYm9ib2x0cy5jb22CDnRyYXBtYWdldGVyLmNmggx0cmVuZGlmeS5jb22CEHdhbHkta3Jhd2N6eWsucGyCDHdlYWdoLnJldmlld4IZd2luZG93c25vdy5hbHRlcnZpc3RhLm9yZ4IKeDExdmlzLm9yZ4IOeHh4dm90ZS5yZXZpZXeCCnpla2p1ci5uZXQwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAAAWdus31iAAAEAwBIMEYCIQC4MmHZ4Ocn9YM7n7BWEw3+rmyc00xmbMxc/ufc6qQDtQIhANQIxZexdIYbzk8e042iOg/ef0jKOTUvhGmMUSIqOqQyAHcAdH7agzGtMxCRIZzOJU9CcMK//V5CIAjGNzV55hB7zFYAAAFnbrN9qwAABAMASDBGAiEA/23JlG2NK2AaWarg8H2aww8g1YMhnBizcdKMEL5S9K0CIQCj1TNi6xIs8SZAzM82yLqZLhOkJ+uYsy//Th2DGY/+8jAKBggqhkjOPQQDAgNHADBEAiAE0kqL0zyKZLdF7fZr4vAkds/QhQOZ0PGUqklS+BhxGgIgE78tmcEv75w56zBFQpINdZ7ZF81ZvouQont8t9GOSmkTAQMEAAAAAAEBAAAAAAAABngyNTUxOQAAABFFQ0RTQS1QMjU2LVNIQTI1NgGVn7FlZRdIf6ub2JE75TGXrnTNpc0vRz+W9fC3//YsaAAAAANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAqUMIIKkDCCCjegAwIBAgIRAL0TUap1l79ZWRNPAPFyOOgwCgYIKoZIzj0EAwIwgZIxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTgwNgYDVQQDEy9DT01PRE8gRUNDIERvbWFpbiBWYWxpZGF0aW9uIFNlY3VyZSBTZXJ2ZXIgQ0EgMjAeFw0xODEyMDIwMDAwMDBaFw0xOTA2MTAyMzU5NTlaMGsxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRlZDEhMB8GA1UECxMYUG9zaXRpdmVTU0wgTXVsdGktRG9tYWluMSMwIQYDVQQDExpzbmkzNzUzOS5jbG91ZGZsYXJlc3NsLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPOfzxFoo6I9VMFfHXNqZWi1NkPeI4eVyci+5/OrYTl1Rya3+iOy4p9H9YMan8UE15byEPFIwMsfAk3AAuCwt0ajggiSMIIIjjAfBgNVHSMEGDAWgBRACWFn8LyDcU/eEggsb9TUK3Y9ljAdBgNVHQ4EFgQUDEgpPDDbFsmoOCZ+gt/2tvX1+/0wDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCME8GA1UdIARIMEYwOgYLKwYBBAGyMQECAgcwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2RvLmNvbS9DUFMwCAYGZ4EMAQIBMFYGA1UdHwRPME0wS6BJoEeGRWh0dHA6Ly9jcmwuY29tb2RvY2E0LmNvbS9DT01PRE9FQ0NEb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EyLmNybDCBiAYIKwYBBQUHAQEEfDB6MFEGCCsGAQUFBzAChkVodHRwOi8vY3J0LmNvbW9kb2NhNC5jb20vQ09NT0RPRUNDRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBMi5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLmNvbW9kb2NhNC5jb20wggXPBgNVHREEggXGMIIFwoIac25pMzc1MzkuY2xvdWRmbGFyZXNzbC5jb22CEiouMXBhdHRlcm5ob21lMC5nYYINKi4zbGFuY2Vycy5jb4IPKi41OWRlc2t0b3AyLmdxgg8qLjZkZXNpZ25oZDEuY2aCEiouYWxlcnRvcGluaW9uLmNvbYITKi5heGVjaWJ1emlwYW1lai50a4IgKi5iY2FyZC1zZWN1cmUtbGRlbnR2ZXJmYWhyZW4ucnWCFSouYmxhY2tmcmluZ2Vza2lydC50a4INKi5ib2JvbHRzLmNvbYIRKi5idXlsb3hpdGFuZS5jb22CGSouY29tZXRvZ2V0aGVyYm93bmVzcy5jb22CDSouY3JhY2twYy5uZXSCEyouZGlzY291bnRjYXJwZXQuY2+CDCouZG9jdW1heC5jb4IOKi5mYXRyb3RpdGUuZ3GCDSouZmhzZ3V1LmRhdGWCDCouZmh2aXBzLmNvbYIPKi5mcmVnYXQtc3BiLnJ1ghQqLmhlYXRoY2RhbmdkZW5taS5jZoIKKi5ocnkyNC5za4IKKi5pM3dtLm9yZ4IRKi5pcG9mYXd5bmFoZWYudGuCDiouamN2YWVib29rLm1sghAqLmxkZXJ1bm1vY2FyLmdxghwqLm1hbW11dG1vdW50YWluc2Nob29sLmNvLnVrgg8qLnJvYnVzdGlyYy5uZXSCEyoucm95bGl2aW5nc3Rvbi5jb22CEiouc2VlbGVmbHlyb2RzLmNvbYIXKi5zZWxmYnVpbGRuZXdob21lcy5jb22CESouc3RlbmhpbGwucmV2aWV3gg0qLnN1dGF6ZTI0LnNrgg0qLnRhdHVtYWkuY29tghAqLnRvbWJvYm9sdHMuY29tghAqLnRyYXBtYWdldGVyLmNmgg4qLnRyZW5kaWZ5LmNvbYISKi53YWx5LWtyYXdjenlrLnBsgg4qLndlYWdoLnJldmlld4IbKi53aW5kb3dzbm93LmFsdGVydmlzdGEub3JnggwqLngxMXZpcy5vcmeCECoueHh4dm90ZS5yZXZpZXeCDCouemVranVyLm5ldIIQMXBhdHRlcm5ob21lMC5nYYILM2xhbmNlcnMuY2+CDTU5ZGVza3RvcDIuZ3GCDTZkZXNpZ25oZDEuY2aCEGFsZXJ0b3Bpbmlvbi5jb22CEWF4ZWNpYnV6aXBhbWVqLnRrgh5iY2FyZC1zZWN1cmUtbGRlbnR2ZXJmYWhyZW4ucnWCE2JsYWNrZnJpbmdlc2tpcnQudGuCC2JvYm9sdHMuY29tgg9idXlsb3hpdGFuZS5jb22CF2NvbWV0b2dldGhlcmJvd25lc3MuY29tggtjcmFja3BjLm5ldIIRZGlzY291bnRjYXJwZXQuY2+CCmRvY3VtYXguY2+CDGZhdHJvdGl0ZS5ncYILZmhzZ3V1LmRhdGWCCmZodmlwcy5jb22CDWZyZWdhdC1zcGIucnWCEmhlYXRoY2RhbmdkZW5taS5jZoIIaHJ5MjQuc2uCCGkzd20ub3Jngg9pcG9mYXd5bmFoZWYudGuCDGpjdmFlYm9vay5tbIIObGRlcnVubW9jYXIuZ3GCGm1hbW11dG1vdW50YWluc2Nob29sLmNvLnVrgg1yb2J1c3RpcmMubmV0ghFyb3lsaXZpbmdzdG9uLmNvbYIQc2VlbGVmbHlyb2RzLmNvbYIVc2VsZmJ1aWxkbmV3aG9tZXMuY29tgg9zdGVuaGlsbC5yZXZpZXeCC3N1dGF6ZTI0LnNrggt0YXR1bWFpLmNvbYIOdG9tYm9ib2x0cy5jb22CDnRyYXBtYWdldGVyLmNmggx0cmVuZGlmeS5jb22CEHdhbHkta3Jhd2N6eWsucGyCDHdlYWdoLnJldmlld4IZd2luZG93c25vdy5hbHRlcnZpc3RhLm9yZ4IKeDExdmlzLm9yZ4IOeHh4dm90ZS5yZXZpZXeCCnpla2p1ci5uZXQwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAAAWdus31iAAAEAwBI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 request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/2.0 200 OK
+date: Sun, 02 Dec 2018 22:33:24 GMT
+content-type: application/octet-stream
+content-length: 8667
+last-modified: Mon, 21 Dec 2015 08:00:44 GMT
+etag: "5677b1ac-21db"
+access-control-allow-origin: *
+expires: Sat, 01 Dec 2018 05:23:02 GMT
+cache-control: max-age=600
+x-github-request-id: 0A96:39F1:65D9C0:8A9C12:5C02185A
+accept-ranges: bytes
+via: 1.1 varnish
+age: 425
+x-served-by: cache-hhn1538-HHN
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1543790005.591598,VS0,VE0
+vary: Accept-Encoding
+x-fastly-request-id: 7fd28ec59a9e621a4ebea192a7a48a7e9fe991a1
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 48314148ac2cc26f-FRA
+X-Firefox-Spdy: h2
+ original-response-headers date: Sun, 02 Dec 2018 22:33:24 GMT
+content-type: application/octet-stream
+content-length: 8667
+last-modified: Mon, 21 Dec 2015 08:00:44 GMT
+etag: "5677b1ac-21db"
+access-control-allow-origin: *
+expires: Sat, 01 Dec 2018 05:23:02 GMT
+cache-control: max-age=600
+x-github-request-id: 0A96:39F1:65D9C0:8A9C12:5C02185A
+accept-ranges: bytes
+via: 1.1 varnish
+age: 425
+x-served-by: cache-hhn1538-HHN
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1543790005.591598,VS0,VE0
+vary: Accept-Encoding
+x-fastly-request-id: 7fd28ec59a9e621a4ebea192a7a48a7e9fe991a1
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 48314148ac2cc26f-FRA
+X-Firefox-Spdy: h2
+ net-response-time-onstart 85 net-response-time-onstop 91   !Û

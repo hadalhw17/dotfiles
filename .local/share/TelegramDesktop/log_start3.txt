@@ -1,0 +1,13 @@
+[2018.12.22 09:25:15] Launched version: 1005002, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2018.12.22 09:25:15] Executable dir: /home/alex/Programs/Telegram/, name: Telegram
+[2018.12.22 09:25:15] Initial working dir: /home/alex/
+[2018.12.22 09:25:15] Working dir: /home/alex/.local/share/TelegramDesktop/
+[2018.12.22 09:25:15] Command line: /home/alex/Programs/Telegram/Telegram
+[2018.12.22 09:25:15] Executable path before check: /home/alex/Programs/Telegram/Telegram
+[2018.12.22 09:25:15] Logs started
+[2018.12.22 09:25:15] Fontconfig version: 2.13.1.
+[2018.12.22 09:25:15] Custom FONTCONFIG_FILE: /home/alex/.local/share/TelegramDesktop/tdata/fc-custom-1.conf
+[2018.12.22 09:25:15] Connecting local socket to /tmp/3b4e7fb4572a111b1e06bd66ed269633-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2018.12.22 09:25:15] Socket connected, this is not the first application instance, sending show command...
+[2018.12.22 09:25:15] Show command written, waiting response...
+[2018.12.22 09:25:15] Show command response received, pid = 1461, activating and quitting...

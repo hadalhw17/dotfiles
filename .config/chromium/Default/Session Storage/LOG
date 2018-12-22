@@ -1,0 +1,42 @@
+2018/12/22-08:03:02.679 5926 Reusing MANIFEST /home/alex/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/12/22-08:03:02.679 5926 Recovering log #265
+2018/12/22-08:03:02.679 5926 Reusing old log /home/alex/.config/chromium/Default/Session Storage/000265.log 
+2018/12/22-08:03:21.078 5c8a Level-0 table #269: started
+2018/12/22-08:03:21.148 5c8a Level-0 table #269: 18346 bytes OK
+2018/12/22-08:03:21.291 5c8a Delete type=0 #265
+2018/12/22-08:15:19.864 5c8a Level-0 table #271: started
+2018/12/22-08:15:19.941 5c8a Level-0 table #271: 17859 bytes OK
+2018/12/22-08:15:19.975 5c8a Delete type=0 #268
+2018/12/22-08:15:33.638 5c8a Level-0 table #273: started
+2018/12/22-08:15:33.739 5c8a Level-0 table #273: 18602 bytes OK
+2018/12/22-08:15:33.795 5c8a Delete type=0 #270
+2018/12/22-08:15:33.796 5c8a Compacting 4@0 + 1@1 files
+2018/12/22-08:15:33.874 5c8a Generated table #274@0: 3476 keys, 133434 bytes
+2018/12/22-08:15:33.874 5c8a Compacted 4@0 + 1@1 files => 133434 bytes
+2018/12/22-08:15:33.907 5c8a compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/22-08:15:33.907 5c8a Delete type=2 #271
+2018/12/22-08:15:33.907 5c8a Delete type=2 #269
+2018/12/22-08:15:33.907 5c8a Delete type=2 #266
+2018/12/22-08:15:33.907 5c8a Delete type=2 #264
+2018/12/22-08:15:33.907 5c8a Delete type=2 #273
+2018/12/22-08:17:20.097 5c8a Level-0 table #276: started
+2018/12/22-08:17:20.164 5c8a Level-0 table #276: 23839 bytes OK
+2018/12/22-08:17:20.209 5c8a Delete type=0 #272
+2018/12/22-08:42:07.075 5c8a Level-0 table #278: started
+2018/12/22-08:42:07.167 5c8a Level-0 table #278: 17154 bytes OK
+2018/12/22-08:42:07.212 5c8a Delete type=0 #275
+2018/12/22-08:49:50.973 5c8a Level-0 table #280: started
+2018/12/22-08:49:51.031 5c8a Level-0 table #280: 18667 bytes OK
+2018/12/22-08:49:51.065 5c8a Delete type=0 #277
+2018/12/22-09:16:10.135 5c8a Level-0 table #282: started
+2018/12/22-09:16:10.240 5c8a Level-0 table #282: 19722 bytes OK
+2018/12/22-09:16:10.285 5c8a Delete type=0 #279
+2018/12/22-09:16:10.285 5c8a Compacting 4@0 + 1@1 files
+2018/12/22-09:16:10.343 5c8a Generated table #283@0: 3635 keys, 210267 bytes
+2018/12/22-09:16:10.343 5c8a Compacted 4@0 + 1@1 files => 210267 bytes
+2018/12/22-09:16:10.376 5c8a compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/22-09:16:10.376 5c8a Delete type=2 #276
+2018/12/22-09:16:10.376 5c8a Delete type=2 #274
+2018/12/22-09:16:10.376 5c8a Delete type=2 #280
+2018/12/22-09:16:10.377 5c8a Delete type=2 #278
+2018/12/22-09:16:10.377 5c8a Delete type=2 #282

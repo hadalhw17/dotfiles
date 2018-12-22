@@ -1,0 +1,21 @@
+2018/12/20-18:48:57.954 6005 Reusing MANIFEST /home/alex/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/12/20-18:48:57.954 6005 Recovering log #257
+2018/12/20-18:48:57.954 6005 Reusing old log /home/alex/.config/chromium/Default/Session Storage/000257.log 
+2018/12/20-18:49:06.018 62ca Level-0 table #261: started
+2018/12/20-18:49:06.135 62ca Level-0 table #261: 19443 bytes OK
+2018/12/20-18:49:06.214 62ca Delete type=0 #257
+2018/12/20-18:52:59.575 62ca Level-0 table #263: started
+2018/12/20-18:52:59.640 62ca Level-0 table #263: 25185 bytes OK
+2018/12/20-18:52:59.687 62ca Delete type=0 #260
+2018/12/20-18:52:59.687 62ca Compacting 4@0 + 1@1 files
+2018/12/20-18:52:59.742 62ca Generated table #264@0: 3324 keys, 109320 bytes
+2018/12/20-18:52:59.742 62ca Compacted 4@0 + 1@1 files => 109320 bytes
+2018/12/20-18:52:59.776 62ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/20-18:52:59.776 62ca Delete type=2 #254
+2018/12/20-18:52:59.776 62ca Delete type=2 #263
+2018/12/20-18:52:59.776 62ca Delete type=2 #261
+2018/12/20-18:52:59.777 62ca Delete type=2 #256
+2018/12/20-18:52:59.777 62ca Delete type=2 #258
+2018/12/20-19:22:49.736 62ca Level-0 table #266: started
+2018/12/20-19:22:49.868 62ca Level-0 table #266: 26888 bytes OK
+2018/12/20-19:22:50.055 62ca Delete type=0 #262

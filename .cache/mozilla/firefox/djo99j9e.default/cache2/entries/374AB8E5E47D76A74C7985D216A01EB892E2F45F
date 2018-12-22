@@ -1,0 +1,233 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="205" height="325">
+	<clipPath id="clip">
+		<rect rx="3" width="100%" height="100%" fill="#000"/>
+	</clipPath>
+	<linearGradient id="grad" x2="0" y2="100%">
+		<stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+		<stop offset="1" stop-opacity=".1"/>
+	</linearGradient>
+
+	<g clip-path="url(#clip)">
+		<rect width="100%" height="100%" fill="#555"/>
+
+		<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="15" font-weight="bold">
+			<a xlink:href="https://repology.org/metapackage/polybar/versions">
+				<text x="102.5" y="18" fill="#010101" fill-opacity=".3">Packaging status</text>
+				<text x="102.5" y="17">Packaging status</text>
+			</a>
+		</g>
+
+
+			<rect x="145" y="25" width="60" height="20" fill="#4c1"/>
+			<rect y="25" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="40" fill="#010101" fill-opacity=".3">AUR</text>
+				<text x="140" y="39">AUR</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="40" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="39">3.2.1</text>
+			</g>
+
+			<rect x="145" y="45" width="60" height="20" fill="#4c1"/>
+			<rect y="45" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="60" fill="#010101" fill-opacity=".3">FreeBSD Ports</text>
+				<text x="140" y="59">FreeBSD Ports</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="60" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="59">3.2.1</text>
+			</g>
+
+			<rect x="145" y="65" width="60" height="20" fill="#4c1"/>
+			<rect y="65" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="80" fill="#010101" fill-opacity=".3">Gentoo</text>
+				<text x="140" y="79">Gentoo</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="80" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="79">3.2.1</text>
+			</g>
+
+			<rect x="145" y="85" width="60" height="20" fill="#e05d44"/>
+			<rect y="85" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="100" fill="#010101" fill-opacity=".3">GetDeb Xenial</text>
+				<text x="140" y="99">GetDeb Xenial</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="100" fill="#010101" fill-opacity=".3">2.5.2</text>
+				<text x="175.0" y="99">2.5.2</text>
+			</g>
+
+			<rect x="145" y="105" width="60" height="20" fill="#e05d44"/>
+			<rect y="105" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="120" fill="#010101" fill-opacity=".3">GetDeb Xenial Testing</text>
+				<text x="140" y="119">GetDeb Xenial Testing</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="120" fill="#010101" fill-opacity=".3">2.5.2</text>
+				<text x="175.0" y="119">2.5.2</text>
+			</g>
+
+			<rect x="145" y="125" width="60" height="20" fill="#e05d44"/>
+			<rect y="125" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="140" fill="#010101" fill-opacity=".3">GetDeb Yakkety</text>
+				<text x="140" y="139">GetDeb Yakkety</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="140" fill="#010101" fill-opacity=".3">3.0.5</text>
+				<text x="175.0" y="139">3.0.5</text>
+			</g>
+
+			<rect x="145" y="145" width="60" height="20" fill="#e05d44"/>
+			<rect y="145" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="160" fill="#010101" fill-opacity=".3">GetDeb Yakkety Testing</text>
+				<text x="140" y="159">GetDeb Yakkety Testing</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="160" fill="#010101" fill-opacity=".3">3.0.5</text>
+				<text x="175.0" y="159">3.0.5</text>
+			</g>
+
+			<rect x="145" y="165" width="60" height="20" fill="#e05d44"/>
+			<rect y="165" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="180" fill="#010101" fill-opacity=".3">GetDeb Zesty</text>
+				<text x="140" y="179">GetDeb Zesty</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="180" fill="#010101" fill-opacity=".3">3.0.5</text>
+				<text x="175.0" y="179">3.0.5</text>
+			</g>
+
+			<rect x="145" y="185" width="60" height="20" fill="#4c1"/>
+			<rect y="185" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="200" fill="#010101" fill-opacity=".3">Manjaro Stable</text>
+				<text x="140" y="199">Manjaro Stable</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="200" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="199">3.2.1</text>
+			</g>
+
+			<rect x="145" y="205" width="60" height="20" fill="#4c1"/>
+			<rect y="205" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="220" fill="#010101" fill-opacity=".3">Manjaro Testing</text>
+				<text x="140" y="219">Manjaro Testing</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="220" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="219">3.2.1</text>
+			</g>
+
+			<rect x="145" y="225" width="60" height="20" fill="#4c1"/>
+			<rect y="225" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="240" fill="#010101" fill-opacity=".3">Manjaro Unstable</text>
+				<text x="140" y="239">Manjaro Unstable</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="240" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="239">3.2.1</text>
+			</g>
+
+			<rect x="145" y="245" width="60" height="20" fill="#4c1"/>
+			<rect y="245" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="260" fill="#010101" fill-opacity=".3">nixpkgs stable</text>
+				<text x="140" y="259">nixpkgs stable</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="260" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="259">3.2.1</text>
+			</g>
+
+			<rect x="145" y="265" width="60" height="20" fill="#4c1"/>
+			<rect y="265" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="280" fill="#010101" fill-opacity=".3">nixpkgs unstable</text>
+				<text x="140" y="279">nixpkgs unstable</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="280" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="279">3.2.1</text>
+			</g>
+
+			<rect x="145" y="285" width="60" height="20" fill="#4c1"/>
+			<rect y="285" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="300" fill="#010101" fill-opacity=".3">Pisi Linux</text>
+				<text x="140" y="299">Pisi Linux</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="300" fill="#010101" fill-opacity=".3">3.2.1</text>
+				<text x="175.0" y="299">3.2.1</text>
+			</g>
+
+			<rect x="145" y="305" width="60" height="20" fill="#e05d44"/>
+			<rect y="305" width="100%" height="20" fill="url(#grad)"/>
+			<g fill="#fff" text-anchor="end" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="140" y="320" fill="#010101" fill-opacity=".3">SlackBuilds</text>
+				<text x="140" y="319">SlackBuilds</text>
+			</g>
+			<g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+				<text x="175.0" y="320" fill="#010101" fill-opacity=".3">3.1.0</text>
+				<text x="175.0" y="319">3.1.0</text>
+			</g>
+	</g>
+</svg>ˆl3²¾˜      \`®\`®?É{z\lâ   ½    :https://camo.githubusercontent.com/6d16b21d14c8278c2f7860ba9e70d57000e98b94/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f766572746963616c2d616c6c7265706f732f706f6c796261722e737667 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAgAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAesMIIHqDCCBpCgAwIBAgIQCDqEWS938ueVG/iHzt7JZjANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNzdXJhbmNlIFNlcnZlciBDQTAeFw0xNzAzMjMwMDAwMDBaFw0yMDA1MTMxMjAwMDBaMGoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRUwEwYDVQQKEwxHaXRIdWIsIEluYy4xFzAVBgNVBAMTDnd3dy5naXRodWIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxtPxijvPpEXyy3Bn10WfoWmKTW753Uv2PusDNmalx/7mqFqi5BqK4xWQHQgSpyhedgtWIXWCJGHtgFVck+DBAbHiHsE67ewpV1a2l2GpqNCFTU77UsoNVD/xPyx3k+cPX9y8rqjMiZB3xs1zKDYBkcoBVrA+iO323YkJmCLEXCO2O7b1twLFWkNwMd7e7nteu2uCMvxNp5Qg22MIn33t2egMPfIDU/TcKDfyaty5+s6F3gzh7eIgnqNQN0T/5fpaYkqdx8j21QDsIyF/CfSpA5qKLuhluu8xrUbnc0MigX7VThS9PbfxMSQ1cQQfbGdxoQNJTNHxXv+ZTXAxKCju5wIDAQABo4IEQjCCBD4wHwYDVR0jBBgwFoAUUWj/kK8CB3U8zNllZGKiErhZcjswHQYDVR0OBBYEFDCCKdhtTODUosYQSAWAh6i8qukSMHsGA1UdEQR0MHKCDnd3dy5naXRodWIuY29tggwqLmdpdGh1Yi5jb22CCmdpdGh1Yi5jb22CCyouZ2l0aHViLmlvgglnaXRodWIuaW+CFyouZ2l0aHVidXNlcmNvbnRlbnQuY29tghVnaXRodWJ1c2VyY29udGVudC5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMIGDBggrBgEFBQcBAQR3MHUwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBNBggrBgEFBQcwAoZBaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hBMkhpZ2hBc3N1cmFuY2VTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAfUGCisGAQQB1nkCBAIEggHlBIIB4QHfAHYApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFa/UBqBAAABAMARzBFAiBFXsWaC1bup8Q0JgrY9EgIxjqi1v2fA6Zg44iRXSQyywIhAIzhzU1zlseJh5+yXc5U1I+pgqRmXb1XcPIsGL8oOdwjAHUAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0AAAFa/UBqZQAABAMARjBEAiBKQMsySmj69oKZMeC+MDokLrrVN2tK+OMlzf1T5qgHtgIgRJLNGvfWDmMpCK/iWPSmMsYK2yYyTl9KbtHBtP5WpkcAdgDuS723dc5guuFCaR+r4Z5mow9+X7By2IMAxHuJeqj9ywAAAVr9QGofAAAEAwBHMEUCIA2n0TbeAa5KbuOpnXpJbnObwckpOsHsaN+2rA7ZA16YAiEAl7JTnVPdmFcauzwLjgNESMRFtn4Brzm9XJTPJbaWPacAdgC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAAAVr9QGoRAAAEAwBHMEUCIQCqrtuq71J6TM7wKMWeSAROdTa8f35GoLMImJXONSNHfQIgONvSu/VH5jlZ1+PD+b6ThFF1+pV7wp7wq+/8xiHUMlswDQYJKoZIhvcNAQELBQADggEBAJl+1i/OG6YV9RWz7/EwwR9UEJKkjEPAvL2lDQBT4kLBhW/lp6lBmUtGEVrd/egnaZe2PKYOKjDbM1O+g7CqCIkEfmY15VyzLCh/p7HlJ3ltgSaJ6qBVUXAQy+tDWWuqUrRG/dL/iRaKRdoOv4cNU++DJMUXrRJjQHSATb2kyd102d8cYQIKcbCTJC8tqSB6Q4ZEEViKRZvXXOJm66bG8Xyn3N2vJ4k598Gamch/NHrZOXODy3N1vBawTqFJLQkSjU4+Y//wiHHfUEYrpTg92zgIlylk3svH64hwWd1i3BZ2LTBq46MvQKU2D8wFdtXgbgRAPWohX79Oo6hs0Jghub3ALwMDAAAAAAEBAAAAAAAABG5vbmUAAAAQUlNBLVBLQ1MxLVNIQTUxMgGVn7FlZRdIf6ub2JE75TGXrnTNpc0vRz+W9fC3//YsaAAAAANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAesMIIHqDCCBpCgAwIBAgIQCDqEWS938ueVG/iHzt7JZjANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNzdXJhbmNlIFNlcnZlciBDQTAeFw0xNzAzMjMwMDAwMDBaFw0yMDA1MTMxMjAwMDBaMGoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRUwEwYDVQQKEwxHaXRIdWIsIEluYy4xFzAVBgNVBAMTDnd3dy5naXRodWIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxtPxijvPpEXyy3Bn10WfoWmKTW753Uv2PusDNmalx/7mqFqi5BqK4xWQHQgSpyhedgtWIXWCJGHtgFVck+DBAbHiHsE67ewpV1a2l2GpqNCFTU77UsoNVD/xPyx3k+cPX9y8rqjMiZB3xs1zKDYBkcoBVrA+iO323YkJmCLEXCO2O7b1twLFWkNwMd7e7nteu2uCMvxNp5Qg22MIn33t2egMPfIDU/TcKDfyaty5+s6F3gzh7eIgnqNQN0T/5fpaYkqdx8j21QDsIyF/CfSpA5qKLuhluu8xrUbnc0MigX7VThS9PbfxMSQ1cQQfbGdxoQNJTNHxXv+ZTXAxKCju5wIDAQABo4IEQjCCBD4wHwYDVR0jBBgwFoAUUWj/kK8CB3U8zNllZGKiErhZcjswHQYDVR0OBBYEFDCCKdhtTODUosYQSAWAh6i8qukSMHsGA1UdEQR0MHKCDnd3dy5naXRodWIuY29tggwqLmdpdGh1Yi5jb22CCmdpdGh1Yi5jb22CCyouZ2l0aHViLmlvgglnaXRodWIuaW+CFyouZ2l0aHVidXNlcmNvbnRlbnQuY29tghVnaXRodWJ1c2VyY29udGVudC5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMIGDBggrBgEFBQcBAQR3MHUwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBNBggrBgEFBQcwAoZBaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hBMkhpZ2hBc3N1cmFuY2VTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAfUGCisGAQQB1nkCBAIEggHlBIIB4QHfAHYApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFa/UBqBAAABAMARzBFAiBFXsWaC1bup8Q0JgrY9EgIxjqi1v2fA6Zg44iRXSQyywIhAIzhzU1zlseJh5+yXc5U1I+pgqRmXb1XcPIsGL8oOdwjAHUAVhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0AAAFa/UBqZQAABAMARjBEAiBKQMsySmj69oKZMeC+MDokLrrVN2tK+OMlzf1T5qgHtgIgRJLNGvfWDmMpCK/iWPSmMsYK2yYyTl9KbtHBtP5WpkcAdgDuS723dc5guuFCaR+r4Z5mow9+X7By2IMAxHuJeqj9ywAAAVr9QGofAAAEAwBHMEUCIA2n0TbeAa5KbuOpnXpJbnObwckpOsHsaN+2rA7ZA16YAiEAl7JTnVPdmFcauzwLjgNESMRFtn4Brzm9XJTPJbaWPacAdgC72d+8H4pxtZOUI5eqkntHOFeVCqtS6BqQlmQ2jh7RhQAAAVr9QGoRAAAEAwBHMEUCIQCqrtuq71J6TM7wKMWeSAROdTa8f35GoLMImJXONSNHfQIgONvSu/VH5jlZ1+PD+b6ThFF1+pV7wp7wq+/8xiHUMlswDQYJKoZIhvcNAQELBQADggEBAJl+1i/OG6YV9RWz7/EwwR9UEJKkjEPAvL2lDQBT4kLBhW/lp6lBmUtGEVrd/egnaZe2PKYOKjDbM1O+g7CqCIkEfmY15VyzLCh/p7HlJ3ltgSaJ6qBVUXAQy+tDWWuqUrRG/dL/iRaKRdoOv4cNU++DJMUXrRJjQHSATb2kyd102d8cYQIKcbCTJC8tqSB6Q4ZEEViKRZvXXOJm66bG8Xyn3N2vJ4k598Gamch/NHrZOXODy3N1vBawTqFJLQkSjU4+Y//wiHHfUEYrpTg92zgIlylk3svH64hwWd1i3BZ2LTBq46MvQKU2D8wFdtXgbgRAPWohX79Oo6hs0Jghub1mCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAS1MIIEsTCCA5mgAwIBAgIQBOHnpNxc8vNtwCtCuF0VnzANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5jZSBFViBSb290IENBMB4XDTEzMTAyMjEyMDAwMFoXDTI4MTAyMjEyMDAwMFowcDELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTEvMC0GA1UEAxMmRGlnaUNlcnQgU0hBMiBIaWdoIEFzc3VyYW5jZSBTZXJ2ZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC24C/CJAbIbQRf1+8KZAayfSImZRauQkCbztyfn3YHPsMwVYcZuU+UDlqUH1VWtMICKq/QmO4LQNfE0DtyyBSe75CxEamu0si4QzrZCwvV1ZX1QK/IHe1NnF9Xt4ZQaJn1itrSxwUfqJfJ3KSxgoQtxq2lnMcZgqaFD15EWCo3j/018QsIJzJa9buLnqS9UdAn4t07QjOjBSjEuyjMmqwrIw14xnvmXnG3Sj4I+4G3FhahnSMSTeXXkgisdaScus0Xsh5ENWV/UyU50RwKmmMbGZJ0aAo3wsJSSMs5WqK24V3B3aAguCGikyZvFEohQcftbZvySC/zA/WiaJJTL17jAgMBAAGjggFJMIIBRTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wSwYDVR0fBEQwQjBAoD6gPIY6aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0SGlnaEFzc3VyYW5jZUVWUm9vdENBLmNybDA9BgNVHSAENjA0MDIGBFUdIAAwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAdBgNVHQ4EFgQUUWj/kK8CB3U8zNllZGKiErhZcjswHwYDVR0jBBgwFoAUsT7DaQP4v0cB1JgmGggC72NkK8MwDQYJKoZIhvcNAQELBQADggEBABiKlYkD5m3fXPwdaOpKj4PWUS+Na0QWnqxj9dJubISZi6qBcYRb7TROsLd5kinMLYBq8I4g4Xmk/gNHE+r1hspZcX30BJZr01lYPf7TMSVcGDiEo+afgv2MW5gxTs14nhr9hctJqvIni5ly/D6q1UEL2tU2ob8cbkdJf17ZSHwD2f2LSaCYJkJA69aSEaRkCldUxPUd1gJea6zuxICaEnL6VpPX/78whQYwvwt/Tv9XBZ0k7YXDK/umdaisLRbvfXknsuvCnQsH6qqF0wGjIChBWUMo0oHjqvbsezt3tkBigAVBRQHvFwY+3sAzm2fTYS5yh+Rp/BIAV0AecPUeybRmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAPJMIIDxTCCAq2gAwIBAgIQAqxcJmoLQJuPC3nyrkYldzANBgkqhkiG9w0BAQUFADBsMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5jZSBFViBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTMxMTExMDAwMDAwMFowbDELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTErMCkGA1UEAxMiRGlnaUNlcnQgSGlnaCBBc3N1cmFuY2UgRVYgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbM5XPm+9S75S0tMqbf5YE/yc0lSbZxKsPVlDRnogocsF9ppkCxxLeyj9CYpKlBWTrT3JTWPNt0OKRKzE0lgvdKpVMSOO7zSW1xkX5jtqumX8OkhPhPYlG++MXs2ziS4wblCJEMxChBVfvLWokVfnHoNb9Ncgk9vjo4UFt3MRuNs8ckRZqnrG0AFFoEt7oT61EKmEFBIk5lYYeBQVCmeVyJ3hlKV9Uu5l0cUyx+mM0aBhakaHPQNAQTXKFx01p8VdteZOE3hzBWBOURtCmAEvF5OYiiAhF8J2a3iLd48soKqDirCmTCv2ZdlYTBoSUeh10aUAsgEsxBu24LUTi4S8sCAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFLE+w2kD+L9HAdSYJhoIAu9jZCvDMB8GA1UdIwQYMBaAFLE+w2kD+L9HAdSYJhoIAu9jZCvDMA0GCSqGSIb3DQEBBQUAA4IBAQAcGgaX3NecnzyIZgYIVyHbIUf4KmeqvxgydkAQV8GK83rZEWWONfqe/EW1ntlMMUu4kehDLI6zeM7b41N5cdblIZQB2lWHmiRk9opmzN6cN82oNLFpmyPInngiK3BD41VHMWEZ71jFhS9OMPagMRYjyOfiZRYzy78aG6A9+MpeizGLYAiJLQwGXFK3xPkKmNEVX58Svnw2Yzi9RKR/5CYrCsSXaQ3pjOLAEFe4yHYSkVXySGnYvCoCWw9E1CAx2/S6cCZdkGCevEsXCS+0yx5DaMkHJ8HSXPfqIbloEpw8nL+e/IBcm2PN7EeqJSdnoDfzAIJ9VNep+OkuE6N36B9KAAA= request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/1.1 200 OK
+Cache-Control: max-age=3600
+Content-Security-Policy: default-src 'none'; img-src data:; style-src 'unsafe-inline'
+Content-Type: image/svg+xml
+Expires: Sun, 02 Dec 2018 23:38:12 GMT
+Server: github-camo (a64713c3)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-GitHub-Request-Id: 77CC:6E80:550868:5B695C:5C045ED2
+Content-Length: 9714
+Accept-Ranges: bytes
+Date: Sun, 02 Dec 2018 22:38:12 GMT
+Via: 1.1 varnish
+Age: 0
+X-Served-By: cache-lcy19243-LCY
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1543790292.533169,VS0,VE599
+Vary: Accept-Encoding, Cookie
+X-Fastly-Request-ID: 5273438a77a9349f398a9b4736ea82a6b2239496
+Timing-Allow-Origin: https://github.com
+ original-response-headers Cache-Control: max-age=3600
+Content-Security-Policy: default-src 'none'; img-src data:; style-src 'unsafe-inline'
+Content-Type: image/svg+xml
+Expires: Sun, 02 Dec 2018 23:38:12 GMT
+Server: github-camo (a64713c3)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+X-GitHub-Request-Id: 77CC:6E80:550868:5B695C:5C045ED2
+Content-Length: 9714
+Accept-Ranges: bytes
+Date: Sun, 02 Dec 2018 22:38:12 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-lcy19243-LCY
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1543790292.533169,VS0,VE599
+Vary: Accept-Encoding, Cookie
+X-Fastly-Request-ID: 5273438a77a9349f398a9b4736ea82a6b2239496
+Timing-Allow-Origin: https://github.com
+ net-response-time-onstart 657 net-response-time-onstop 662   %ò

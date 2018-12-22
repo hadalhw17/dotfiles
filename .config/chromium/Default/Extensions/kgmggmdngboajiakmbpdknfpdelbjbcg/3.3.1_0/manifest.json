@@ -1,0 +1,26 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "launch.js" ]
+      }
+   },
+   "file_handlers": {
+      "text": {
+         "types": [ "text/*" ]
+      }
+   },
+   "icons": {
+      "128": "assets/icons/icon.png",
+      "16": "assets/icons/icon.png",
+      "48": "assets/icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApDIUWEPX/fOjSRycMeoolf+MDX9ap46PpkkW1GspQNdG5s9H0B1OB00YqzytlEsqoNZertvFxNSS2Cy1PYvv9m6BmwUPM07e/ql3D+1u4qOFj3ub4aRART12Q3FipNxspsSkOtIoF8gvVZqYA5vJs0y0aV3voyb8BTTz1zrkPRGHM9fMrCyET40CCDaZj7tQS9KFmEnaJXhK5gnC0fkqvUG2SqH9SzFFmTdRMAEMd8EtlRbAGGbfTmkvhwczYDfd+M20mPgfA1SRrzQsn0JGTIkWgfX4u2kt+LfAiVaP9pV35M4QY+zI0Fx45Ke/mC5TugVXeqk9UMAQODX1+ggYPwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "31",
+   "name": "TwitchAlerts Stream Labels",
+   "permissions": [ {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "storage", "identity", "webview", "http://*.twitchalerts.com/*", "http://*.twitchalerts.dev:8080/*", "https://www.google-analytics.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.1"
+}

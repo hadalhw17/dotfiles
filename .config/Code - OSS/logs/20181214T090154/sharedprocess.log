@@ -1,0 +1,8 @@
+[2018-12-14 09:01:57.950] [sharedprocess] [info] main {"machineId":"43dbd245f1f6b44548dde54aed36a0385e0db91487daa5899c8f892d89f2be0a"}
+[2018-12-14 09:01:57.995] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:01:58.014] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:01:58.018] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:01:58.463] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:01:58.468] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:01:58.596] [sharedprocess] [info] Deleted from disk ms-python.python-2018.11.0
+[2018-12-14 09:02:37.953] [sharedprocess] [info] Starting to clean up unused language packs.

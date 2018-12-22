@@ -1,0 +1,56 @@
+<div id="{{ name }}-settings">
+
+    <div style="width: 100%; display: inline-block; vertical-align: top; box-sizing: border-box; font-size: 0;" class="fieldset">
+
+        <div style="font: 18px 'Open Sans'; color: #555; margin-bottom: 10px;">{{ label }} <span style="color: #BBB; margin-left: 20px;">{{ name }}.txt</span></div>
+
+        <div class="group" style="width: 100%;">
+            <label>Message Template</label>
+            <input type="text" name="{{ name }}[format]" value="{list}" />
+            {% if settings.format.tokens %}
+            <div class="tokens">Tokens:
+                {% for token in settings.format.tokens %}<a href="#">{{ token }}</a>{% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="group" style="width: 50%;">
+            <label>Item Template</label>
+            <input type="text" name="{{ name }}[item_format]" value="{name}: {amount}" />
+            {% if settings.item_format.tokens %}
+            <div class="tokens">Tokens:
+                {% for token in settings.item_format.tokens %}<a href="#">{{ token }}</a>{% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="group" style="width: 30%;">
+            <label>Item Separator</label>
+            <input type="text" name="{{ name }}[item_separator]" value=", " />
+            {% if settings.item_separator.tokens %}
+            <div class="tokens">Tokens:
+                {% for token in settings.item_separator.tokens %}<a href="#">{{ token }}</a>{% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="group" style="width: 20%;">
+            <label>Item Limit</label>
+            <input type="text" name="{{ name }}[limit]" value="10" />
+        </div>
+
+        {% if settings.includeResubsOption %}
+        <div class="group" style="width: 100%;">
+            <label>Include Resubs</label>
+            <input type="checkbox" name="{{ name }}[include_resubs]" value="1" />
+        </div>
+        {% endif %}
+
+        <div class="group" style="width: 100%;">
+            <label>Preview</label>
+            <div class="preview" id="{{ name }}-preview" style="font-size: 18px;">Fishsticks: $4.91</div>
+        </div>
+
+    </div>
+
+</div>

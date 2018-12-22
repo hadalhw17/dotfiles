@@ -1,0 +1,10 @@
+[16:14:53] Initializing LaTeX Workshop.
+[16:14:53] Creating LaTeX Workshop http and websocket server.
+[16:14:53] LaTeX Workshop initialized.
+[16:14:53] Found root file from active editor: /home/alex/dev/Python/BDMLCW/test.tex
+[16:15:08] Root file changed from: undefined. Find all dependencies.
+[16:15:08] Instatiating new file watcher for /home/alex/dev/Python/BDMLCW/test.tex
+[16:15:08] Parsing /home/alex/dev/Python/BDMLCW/test.tex
+[16:15:08] Server created on 127.0.0.1:40595
+[16:15:08] LaTeX Workshop version: 5.17.3
+[16:15:09] Snippet data loaded.

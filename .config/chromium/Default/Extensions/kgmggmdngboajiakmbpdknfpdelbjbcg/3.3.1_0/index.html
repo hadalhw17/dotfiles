@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link href="css/forms.css" rel="stylesheet" />
+
+    <link href="css/open-sans.css" rel="stylesheet" />
+    <link href="vendor/normalize.css/3.0.2/normalize.css" rel="stylesheet" />
+    <link href="vendor/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="vendor/sweetalert/sweetalert.css" rel="stylesheet" />
+
+    <script src="vendor/jquery/jquery-2.1.3.min.js"></script>
+    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/twig/twig.min.js"></script>
+    <script src="vendor/sweetalert/sweetalert.min.js"></script>
+
+    <script src="js/settings.js"></script>
+    <script src="js/app.js"></script>
+
+    <style>
+
+    html, body {
+        height: 100%;
+        background: transparent;
+    }
+
+    body {
+        background: url(assets/bg-pattern.jpg);
+        font: 18px 'Open Sans';
+    }
+
+    a {
+        color: #32c3a2;
+    }
+
+
+section button {
+    border: none;
+    background: #60a848;
+    border-bottom: 3px solid #428a2a;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font: 600 18px/50px "Open Sans";
+    height: 50px;
+    padding: 0;
+    text-shadow: 0 1px 1px #428a2a;
+    width: 250px;
+    outline-color: transparent;
+    box-shadow: 0 0 3px #000000;
+    text-shadow: 0 0 2px #000000;
+}
+
+section button:hover {
+    background: #6ab252;
+    border-width: 0 0 5px;
+    transform: translate(0px, -2px);
+    height: 52px;
+}
+section button:active {
+    border-width: 0;
+    box-shadow: 0 0 2px #000000 inset;
+    transform: translate(0px, 0px);
+}
+section button:disabled {
+    background: none repeat scroll 0 0 #888;
+    border-color: #747474;
+    border-width: 0 0 3px;
+    box-shadow: none;
+    text-shadow: 0 1px 1px #6a6a6a;
+    transform: translate(0px, 0px);
+}
+
+section button i {
+    margin: 0 5px 0 0;
+}
+
+
+
+a.button {
+    -moz-user-select: none;
+    background: linear-gradient(rgb(204, 208, 214), rgb(173, 178, 187)) repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 4px;
+    color: rgb(0, 140, 221);
+    cursor: pointer;
+    display: inline-block;
+
+    padding: 1px;
+    text-decoration: none;
+    vertical-align: top;
+}
+a.button span {
+    background: linear-gradient(rgb(247, 248, 250), rgb(239, 241, 244)) repeat scroll 0 0 transparent;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255, 255, 255) inset;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+a.button:active {
+    background: linear-gradient(#b5bac2, #b5bac2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+a.button:active span {
+    background: linear-gradient(#e6e8eb, #eff1f4) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+    color: #444;
+}
+a.button:disabled, a.button.disabled {
+    background: none repeat scroll 0 0 #dadce0;
+    pointer-events: none;
+}
+a.button:disabled span, a.button.disabled span {
+    background: none repeat scroll 0 0 #f8f9fa;
+    box-shadow: none;
+    color: #aaa;
+    text-shadow: none;
+}
+
+
+
+section {
+    display: none;
+    height: 100%;
+    position: relative;
+}
+
+section.visible {
+    display: block;
+}
+
+
+table {
+    width: 100%;
+}
+
+table tr {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+table tr:nth-child(odd)  {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+table th {
+    color: #999; font: 12px 'Open Sans'; width: 150px; padding: 5px 20px;
+}
+
+table td {
+    color: #CCC; font: 16px 'Open Sans'; padding: 5px;
+}
+
+
+.tokens {
+    font-size: 14px;
+    padding: 5px 10px 0;
+    font-weight: 600;
+    color: #666;
+}
+
+.tokens a {
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+    </style>
+
+<body>
+
+    <section id="please-login">
+        <div style="width: 100%; height: 100%; display: table;">
+
+            <div style="display: table-cell; width: 100%; height: 100%; text-align: center; vertical-align: middle;">
+
+                <div style="display: inline-block; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)); position: relative; border-radius: 4px;">
+
+                    <div class="panel" id="panel-loading" style="width: 400px; padding: 20px;">
+
+                        <div style="text-align: center; font: 700 48px 'Open Sans'; text-shadow: 0 0px 3px rgba(0, 0, 0, 0.6); color: #FFF; text-shadow: 0 0 5px #000;">
+                            Twitch<span style="color: #32c3a2;">Alerts</span>
+                        </div>
+                        <p style="text-align: center; font: 300 14px 'Open Sans'; color: #CCC; text-shadow: 0 0px 3px rgba(0, 0, 0, 0.6);">A <strong>twitch.tv</strong> login window should appear shortly. Once it does, please log in to continue.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="choose-output-directory-window">
+
+        <div style="width: 100%; height: 100%; display: table;">
+
+            <div style="display: table-cell; width: 100%; height: 100%; text-align: center; vertical-align: middle;">
+
+                <div style="display: inline-block; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)); position: relative; border-radius: 4px;">
+
+                    <div class="panel" id="panel-loading" style="width: 400px; padding: 20px;">
+
+                        <div style="text-align: center; font: 700 48px 'Open Sans'; text-shadow: 0 0px 3px rgba(0, 0, 0, 0.6); color: #FFF; text-shadow: 0 0 5px #000;">
+                            Twitch<span style="color: #32c3a2;">Alerts</span>
+                        </div>
+                        <p style="text-align: center; font: 300 14px 'Open Sans'; color: #AAA; text-shadow: 0 0px 3px rgba(0, 0, 0, 0.6);">Welcome to Stream Labels! Before we get started, please pick where you would like your text files to be created.</p>
+
+                        <div style="text-align: center;">
+                            <button id="choose-output-directory" class="big" style="width: 300px; height: 50px; margin-bottom: 10px; margin-top: 10px;">
+                                <i class="fa fa-folder"></i>Choose Output Directory
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="main-window">
+
+        <span style="font-size: 10px;vertical-align: top;line-height: 14px;color: #555;position: fixed;top: 56px;text-transform: uppercase;font-weight: 600;left: 20px;">40 files synced to your <strong>output directory</strong></span>
+
+        <div style="height: 45px; border-bottom: 1px solid #AAA; background: #CCC;">
+            <div style="position: absolute; top: 0; left: 0; padding: 5px 20px;">
+                <img src="/assets/icons/icon.png" style="height: 36px; vertical-align: top;" />
+                <span style="font-size: 18px;vertical-align: top;line-height: 36px;font-weight: 700;color: #37474f;">Stream<span style="color: #31c3a2;">Labels</span></span>
+            </div>
+
+            <div style="position: absolute; top: 0; right: 0; padding: 10px 20px;">
+                <a href="#settings" class="button"><span><i style="margin-right: 2px;" class="fa fa-cog"></i>File Settings</span></a>
+                <a href="#change-output-directory" class="button"><span><i style="margin-right: 2px;" class="fa fa-folder"></i>Change Output Directory</span></a>
+                <a href="#restart-session" class="button"><span><i style="margin-right: 2px;" class="fa fa-refresh"></i>Restart Session</span></a>
+                <a href="#logout" class="button"><span><i style="margin-right: 2px;" class="fa fa-sign-out"></i>Logout</span></a>
+            </div>
+        </div>
+
+        <div style="width: 100%; height: 100%; box-sizing: border-box; padding: 60px 20px 20px; display: none;">
+
+            <div style="background: rgba(0, 0, 0, 0.5); height: 100%; width: 100%; overflow-y: scroll;">
+                <table id="output-log">
+
+                </table>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="settings-window">
+
+        <div style="position: absolute; top: 0; right: 0; padding: 10px 20px;">
+            <a href="#save-settings" class="button"><span><i style="margin-right: 2px;" class="fa fa-save"></i>Save Settings</span></a>
+            <a href="#cancel-settings" class="button"><span><i style="margin-right: 2px;" class="fa fa-times"></i>Cancel</span></a>
+
+        </div>
+
+        <div style="position: absolute; top: 0; left: 0; padding: 10px 20px;">
+            <select id="file-picker"></select>
+        </div>
+
+        <div style="padding: 60px 40px 20px;" class="form">
+
+        </div>
+
+    </section>
+
+</body>
+</html>

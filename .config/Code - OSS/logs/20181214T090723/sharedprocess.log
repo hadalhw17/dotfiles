@@ -1,0 +1,35 @@
+[2018-12-14 09:07:26.649] [sharedprocess] [info] main {"machineId":"43dbd245f1f6b44548dde54aed36a0385e0db91487daa5899c8f892d89f2be0a"}
+[2018-12-14 09:07:26.684] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:07:26.696] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:07:26.702] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:07:26.728] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:07:26.730] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:08:06.652] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-12-14 09:12:18.332] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:12:18.386] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:12:18.388] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:12:18.393] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:12:18.457] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:12:18.459] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:12:18.461] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:12:26.720] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:12:56.443] [sharedprocess] [info] Installing extension: jupyter
+[2018-12-14 09:12:56.449] [sharedprocess] [info] Scanned user extensions: 3
+[2018-12-14 09:13:01.010] [sharedprocess] [info] Downloaded extension: jupyter /tmp/453f8e9e-2dec-4fc3-933b-5e10b1a67376
+[2018-12-14 09:13:02.526] [sharedprocess] [info] Extracted extension to /home/alex/.vscode-oss/extensions/.donjayamanne.jupyter-1.1.4: donjayamanne.jupyter-1.1.4
+[2018-12-14 09:13:02.526] [sharedprocess] [info] Renamed to /home/alex/.vscode-oss/extensions/donjayamanne.jupyter-1.1.4
+[2018-12-14 09:13:02.526] [sharedprocess] [info] Installation completed. donjayamanne.jupyter-1.1.4
+[2018-12-14 09:13:02.635] [sharedprocess] [info] Extensions installed successfully: donjayamanne.jupyter
+[2018-12-14 09:13:02.761] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:02.779] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:13:17.537] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:17.544] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:17.546] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:17.560] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:17.561] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:13:17.618] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:13:17.620] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:13:17.625] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:13:17.628] [sharedprocess] [info] Scanned system extensions: 71
+[2018-12-14 09:13:17.866] [sharedprocess] [info] Scanned user extensions: 4
+[2018-12-14 09:18:17.890] [sharedprocess] [info] Scanned user extensions: 4

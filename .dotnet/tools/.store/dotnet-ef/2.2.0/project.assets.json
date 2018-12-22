@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "dotnet-ef/2.2.0": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.2/any": {
+      "dotnet-ef/2.2.0": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.2/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.2/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.2/any/dotnet-ef.deps.json": {},
+          "tools/netcoreapp2.2/any/dotnet-ef.dll": {},
+          "tools/netcoreapp2.2/any/dotnet-ef.runtimeconfig.json": {},
+          "tools/netcoreapp2.2/any/shims/win-x64/dotnet-ef.exe": {},
+          "tools/netcoreapp2.2/any/shims/win-x86/dotnet-ef.exe": {},
+          "tools/netcoreapp2.2/any/tools/net461/any/ef.exe": {},
+          "tools/netcoreapp2.2/any/tools/net461/win-x86/ef.exe": {},
+          "tools/netcoreapp2.2/any/tools/netcoreapp2.0/any/ef.dll": {},
+          "tools/netcoreapp2.2/any/tools/netcoreapp2.0/any/ef.runtimeconfig.json": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-ef/2.2.0": {
+      "sha512": "MXN60aBDDEkpCTrZNDPyz+TOsaXt6SR9fiZTTfZOizE5xDpyfwe76nvnYVTPfnz2ljtln7cJ+MhwODIu8ut4wQ==",
+      "type": "package",
+      "path": "dotnet-ef/2.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-ef.2.2.0.nupkg.sha512",
+        "dotnet-ef.nuspec",
+        "tools/netcoreapp2.2/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.2/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.2/any/dotnet-ef.deps.json",
+        "tools/netcoreapp2.2/any/dotnet-ef.dll",
+        "tools/netcoreapp2.2/any/dotnet-ef.runtimeconfig.json",
+        "tools/netcoreapp2.2/any/shims/win-x64/dotnet-ef.exe",
+        "tools/netcoreapp2.2/any/shims/win-x86/dotnet-ef.exe",
+        "tools/netcoreapp2.2/any/tools/net461/any/ef.exe",
+        "tools/netcoreapp2.2/any/tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.2/any/tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.2/any/tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "dotnet-ef"
+    ]
+  },
+  "packageFolders": {
+    "/home/alex/.dotnet/tools/.store/.stage/3z02pwqb.jo5": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/tmp/lxlm4qon.pg1/restore.csproj",
+      "projectName": "restore",
+      "projectPath": "/tmp/lxlm4qon.pg1/restore.csproj",
+      "packagesPath": "/home/alex/.dotnet/tools/.store/.stage/3z02pwqb.jo5",
+      "outputPath": "/home/alex/.dotnet/tools/.store/.stage/3z02pwqb.jo5/",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "/home/alex/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "dependencies": {
+          "dotnet-ef": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}

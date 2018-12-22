@@ -1,0 +1,45 @@
+<div id="{{ name }}-settings">
+
+    <div style="width: 100%; display: inline-block; vertical-align: top; box-sizing: border-box; font-size: 0;" class="fieldset">
+
+        <div style="font: 18px 'Open Sans'; color: #555; margin-bottom: 10px;">{{ label }}</div>
+
+        <div class="group" style="width: 100%;">
+            <label>Show Clock</label>
+            <div class="select-wrapper" style="width: 500px;">
+                <select name="{{ name }}[show_clock]">
+                    <option value="always">Always, show 0:00 when inactive</option>
+                    <option value="active">Hide when inactive</option>
+                </select>
+                <i class="fa fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="group" style="width: 100%;">
+            <label>Show Count</label>
+            <div class="select-wrapper" style="width: 500px;">
+                <select name="{{ name }}[show_count]">
+                    <option value="always">Always, show 0 when inactive</option>
+                    <option value="active">Hide when inactive</option>
+                </select>
+                <i class="fa fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="group" style="width: 100%;">
+            <label>Show Latest Contributor</label>
+            <div class="select-wrapper" style="width: 500px;">
+                <select name="{{ name }}[show_latest]">
+                    <option value="always">Always, show last person when inactive</option>
+                    <option value="active">Hide when inactive</option>
+                </select>
+                <i class="fa fa-caret-down"></i>
+            </div>
+        </div>
+
+        <div class="group" style="width: 100%;">
+            <label>Timer Duration (300 seconds = 5 minutes)</label>
+            <input name="{{ name }}[duration]" type="number" min="10" value="300" max="2000" step="10" style="width: 100px;">
+        </div>
+    </div>
+</div>

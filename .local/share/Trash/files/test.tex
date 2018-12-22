@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx} % This package is used to allow us to include a
+                      % wide range of graphics formats within the
+                      % document.  We can add many different packages
+                      % with LaTeX, but for most purposes, a small
+                      % subset is sufficient.
+\usepackage{hyperref}
+\usepackage{listings}
+\begin{document}
+
+Hello world! What chance is there of this working?
+
+\section{Introduction}
+\label{mystart} % Note that the percent character is used for comments - everything that follows on the same line is ignored.
+\textbf{Computer Vision} - is an area of science that studies artifitial inteligent, in particular
+robotics and all technologies that are used to obtain images of real world objects and then apply some actions on
+them without(full or partial) human presence. 
+
+In the assignment given I had to study a small subset of \textbf{CIFAR-10} dataset. \textbf{CIFAR-10} dataset
+consists of 60000 32x32 rgb color images, where all of the images are separated in 10 classes. Original dataset has 
+50000 training images and 10000 test images, and each class has 6000 images. The dataset given to us has 1000 training
+and 100 testing images. There are a total of 10000 training images and 1000 testng images in the dataset.
+
+After analyzing the dataset I had to make a program that classifies images from the dataset provided. I used several 
+methods in order to achieve the given task. Perform classification using k-nearest neighbour, classification using
+Support Vetor Machine, clustering using k-means classifier and neural network. Redcuce data dimentionality using 
+Linear Discriminant Analysis and perform steps above once again on reduced data. To code all of the techniques above 
+I used \textit{scikit-learn} and \textit{keras} libraries. 
+
+\section{Method}
+In general the given task can be splitted onto several easier tasks, which are:
+\begin{enumerate}
+  \item Feature extraction
+  \item Data preparation
+  \item Classification
+  \item Result analysis
+\end{enumerate}
+Each of the tasks above steps above can be easily be completed with the use of \textit{scikit-learn} 
+and \textit{keras} libraries. 
+
+\subsection{Feature extaction}
+In my opinion operating with raw pixel data in anything but neural network will be a bad idea, since 
+it does not hold any important information for classifiers like k-means or k-nearest neighbour, but color.
+Color is not a reliable feature for classification, because same object (for example plane) can be coloured differently
+on different pictures (for example planes that are being operated by S7 airlines are mostly green, while planes operated
+by Aeroflot airlines are silver). 
+In order to perform hight quality classification I am going to use \textbf{Histogram of Oriented Gradients (HOG)} features. 
+In order to compute \textbf{HOG},
+\begin{enumerate}
+  \item Make image black and white, since information about colors will be useless.
+  \item Take a pixel, we need to look at the pixels surrounding it.
+  \item Determine how dark is our pixel compared to its adjasent pixels
+  \item Draw an arrow that represents the direction in which pixels become darker.
+  \item Repeat from step 2 for each pixel in the image.
+\end{enumerate}
+This method has several key advantages over other descriptors is that it works with local grid and
+is not sensitive to geometric or photometric properties of the object, appart from its orientation. 
+This is beneficial objects with large area.
+
+\subsection{Data preparation}
+During this step 2 things could possibly be done:
+\begin{itemize}
+  \item Perform dimentionality reduction
+  \item Reshape data for neural network.
+\end{itemize}
+As a method for dimentionality reduction I decided to choose 
+\textbf{Linear Discriminant Analysis(LDA)},
+since it provides better between class separation than 
+\textbf{Principal Component Analysis(PCA)}. 
+
+\textbf{LDA} is a method that is used in statistics, machine learning,
+object recocnition in order to find linear combination of properties.
+The combination obtained can be used as a linear classifier, or more frequently
+as a metod of dimentionality reduction before classification.
+
+By reshaping data before feeding it to neural network I mean generating binary class
+matrix of labels using:
+\begin{lstlisting}
+  keras.utils.to_categorical(y,num_classes=None)
+\end{lstlisting}
+\end{document}
+
+
+
